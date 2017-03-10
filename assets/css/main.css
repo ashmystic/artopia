@@ -17,6 +17,12 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  
+  /* Hide by default for most pages */
+  display:none;
+}
+.home .section-title {
+display:block;
 }
 .section-title h1 {
   font-size: 3em;
