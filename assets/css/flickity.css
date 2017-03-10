@@ -1,0 +1,160 @@
+
+.carousel-cell {
+    width: 70%;
+    height: 200px;
+    /* flex-box, center image in cell */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+
+    pointer-events: none;
+    cursor: default;
+}
+/* Disable links on unselected cells*/
+.carousel-cell.is-selected {
+  pointer-events: auto;
+  cursor: auto;
+}
+
+
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-cell__image {
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+/* Brighten and zoom image on hover */
+a:hover .carousel-cell__image  {
+  -webkit-filter: brightness(110%);
+  filter: brightness(110%);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+/* Scale down and blur non-selected cells */
+.carousel-cell .carousel-cell__image img {
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    /* dim unselected */
+    opacity: 0.7;
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+    transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+
+/* zoom and un-blur selected image */
+.carousel-cell.is-selected .carousel-cell__image img {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+.carousel-cell .carousel-cell__text {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+.carousel-cell.is-selected .carousel-cell__text {
+    opacity: 1;
+}
+
+@media screen and ( min-width: 540px) {
+    .carousel-cell {
+        height: 300px;
+    }
+}
+@media screen and ( min-width: 768px) {
+    .carousel-cell {
+        height: 400px;
+    }
+}
+
+@media screen and ( min-width: 960px) {
+    .carousel-cell {
+        width: 60%;
+        height: 500px;
+    }
+}
+
+
+/* buttons, no circle */
+
+.flickity-prev-next-button {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    opacity: 0.6;
+}
+
+.flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1;
+}
+
+
+/* arrow color */
+
+.flickity-prev-next-button .arrow {
+    fill: white;
+}
+
+.flickity-prev-next-button.no-svg {
+    color: white;
+}
+
+
+/* closer to edge */
+
+.flickity-prev-next-button.previous {
+    left: 0;
+}
+
+.flickity-prev-next-button.next {
+    right: 0;
+}
+
+
+/* hide disabled button */
+
+.flickity-prev-next-button:disabled {
+    display: none;
+}
+
+.flickity-page-dots {
+    bottom: 5px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}

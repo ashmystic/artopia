@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, .nav-link {
+    font-family: 'Inknut Antiqua', serif;
+}
+h1 {
+  text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.section-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.section-title h1 {
+  font-size: 3em;
+}
+
+/* external css: flickity.css */
+
+
+@media screen and ( max-width: 540px) {
+  h1, h2, h3 {
+    font-size: 1.1em;
+  }
+  h4, h5, h6 {
+    font-size: 0.7em;
+  }
+}

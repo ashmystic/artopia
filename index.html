@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Artopia > Home</title>
+    <!-- Flickity - image gallery with selected style -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include jQuery -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="assets/javascript/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <!-- Include Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Include Flickity -->
+    <script src="assets/javascript/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="assets/css/flickity.min.css">
+    <!-- Include Isotope -->
+    <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+    <script src="assets/javascript/isotope.pkgd.min.js"></script>
+    <!-- Include fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+    <!-- Include Custom styles and scripts -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/flickity.css">
+    <link rel="stylesheet" href="assets/css/daylight.css">
+    <link rel="stylesheet" href="assets/css/isotope.css">
+
+    <script src="assets/javascript/daylightInit.js"></script>
+    <script src="assets/javascript/isotopeInit.js"></script>
+    <script src="assets/javascript/flickeryInit.js"></script>
+    <script src="assets/javascript/navbarInit.js"></script>
+    <script src="assets/javascript/pageloadInit.js"></script>
+</head>
+
+<body>
+    <div id="theSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- <a href="#">About</a> -->
+        <!-- <a href="#">Gallery</a> -->
+        <!-- <a href="#">Stargate</a> -->
+        <!-- <a href="#">Library</a> -->
+        <div class="navmap">
+          <!-- <svg>
+    <polyline points="447 130 457 133 473 142 480 156 480 178 484 189 484 206 481 224 470 235 463 253 462 265 462 276 453 282 443 286 433 290 423 284 411 276 403 268 402 255 403 243 394 230 389 220 389 205 394 192 393 174 393 165 393 153 403 146 410 133 426 129 448.708 129.187"></polyline>
+</svg> -->
+            <img class="map-background" alt="navigation-map" src="assets/images/sitenav/map_background.png"></img>
+            <a href="temple.html" class="nav-link temple">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/temple_icon.png"></img>
+                <div class="nav-link__text">Temple</div>
+            </a>
+            <a href="gallery.html" class="nav-link gallery">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/gallery_icon.png"></img>
+                <div class="nav-link__text">Gallery</div>
+            </a>
+            <a href="library.html" class="nav-link library">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/library_icon.png"></img>
+                <div class="nav-link__text">Library</div>
+            </a>
+            <a href="laboratory.html" class="nav-link laboratory">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/laboratory_icon.png"></img>
+                <div class="nav-link__text">Laboratory</div>
+            </a>
+            <a href="sky-lounge.html" class="nav-link sky-lounge">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/sky_lounge_icon.png"></img>
+                <div class="nav-link__text">Sky Lounge</div>
+            </a>
+            <a href="stargate.html" class="nav-link stargate">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/stargate_icon.png"></img>
+                <div class="nav-link__text">Stargate</div>
+            </a>
+            <a href="garden.html" class="nav-link garden">
+                <img class="nav-link__icon tree-icon" alt="" src="assets/images/sitenav/tree_icon.png"></img>
+                <div class="nav-link__text">Garden (About)</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <nav id="theNavbar" class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <h2>Artopia</h2>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <img class="navbutton" alt="navigation" src="assets/images/sitenav/compass_4.png" height="75px" onclick="openNav()"></img>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="header-sky">
+            <div class="section-title">
+                <h1>Explore the Village</h1>
+                <h4>▼ Swipe or click on arrows below ▼</h4>
+            </div>
+        </section>
+        <section class="categories">
+            <!-- Flickity HTML init -->
+            <div class="carousel">
+              <a href="gallery.html" class="carousel-cell">
+                  <div class="carousel-cell__image">
+                      <img src="assets/images/carousel/gallery_exterior_color.png" alt="gallery" />
+                  </div>
+                  <div class="carousel-cell__text">
+                      <h3>Gallery</h3>
+                      <h4>Sketches, drawings and paintings</h4>
+                      <br><br>
+                  </div>
+              </a>
+                <a href="stargate.html" class="carousel-cell">
+                    <div class="carousel-cell__image">
+                        <img src="assets/images/carousel/soulgate_color.png" alt="stargate" />
+                    </div>
+                    <div class="carousel-cell__text">
+                        <h3>Stargate</h3>
+                        <h4>Digital Experiments</h4>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="temple.html" class="carousel-cell">
+                    <div class="carousel-cell__image">
+                        <img src="assets/images/carousel/temple_exterior_color.png" alt="temple" />
+                    </div>
+                    <div class="carousel-cell__text">
+                        <h3>Temple</h3>
+                        <h4>Bits of insight and wisdom</h4>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="library.html" class="carousel-cell">
+                    <div class="carousel-cell__image">
+                        <img src="assets/images/carousel/library_exterior_color.png" alt="library" />
+                    </div>
+                    <div class="carousel-cell__text">
+                        <h3>Library</h3>
+                        <h4>Stories, reflections and posts</h4>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="laboratory.html" class="carousel-cell">
+                    <div class="carousel-cell__image">
+                        <img src="assets/images/carousel/laboratory_exterior_color.png" alt="temple" />
+                    </div>
+                    <div class="carousel-cell__text">
+                        <h3>Laboratory</h3>
+                        <h4>Project ideas and visions</h4>
+                        <br><br>
+                    </div>
+                </a>
+                <a href="sky-lounge.html" class="carousel-cell">
+                    <div class="carousel-cell__image">
+                        <img src="assets/images/carousel/sky_lounge_exterior_color.png" alt="sky lounge" />
+                    </div>
+                    <div class="carousel-cell__text">
+                        <h3>Sky Lounge</h3>
+                        <h4>Curated inspiration</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="item-portfolio item-portfolio-new-items">
+            <div class="container-fluid section-title">
+                <h1>Browse New Items</h1>
+            </div>
+            <div class="container container-isotope">
+
+                <h2>Filter</h2>
+                <div id="filters" class="button-group">
+                    <button class="button is-checked" data-filter="*">show all</button>
+                    <button class="button" data-filter=".quote">quote</button>
+                    <button class="button" data-filter=".book">book</button>
+                    <button class="button" data-filter=".art">art</button>
+                    <button class="button" data-filter=".video">video</button>
+                    <button class="button" data-filter=".website">website</button>
+                </div>
+                <h2>Sort</h2>
+                <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+                    <button class="button" data-sort-by="title">title</button>
+                    <button class="button" data-sort-by="author">author</button>
+                    <button class="button" data-sort-by="category">category</button>
+                </div>
+
+                <div class="grid">
+                    <div class="grid-item work-uncited website" data-category="general wisdom, society">
+                        <div class="category">Inspiration</div>
+                        <div class="medium">Website</div>
+                        <img class="image" src="http://www.hippiefuturist.me/wp-content/uploads/2016/06/self-portrait-e1486771781566.jpg"></img>
+                        <div class="title">
+                            <h4><b>HippieFuturist.me</b></h4></div>
+                        <div class="author"></div>
+                        <div class="date"></div>
+                        <div class="text">This is my personal website containing random projects.</div>
+                        <a class="link" href="http://www.hippiefuturist.me" target="_blank"><button class="button">Visit site</button></a>
+                    </div>
+                    <div class="grid-item quote-cited quote" data-category="general wisdom, society">
+                        <div class="category">Inspiration</div>
+                        <div class="medium">Quote</div>
+                        <img class="image" src="assets/images/reference-photos/einstein.jpg"></img>
+                        <div class="title"></div>
+                        <div class="author">Albert Einstein</div>
+                        <div class="date"></div>
+                        <div class="text">"We cannot solve our problems with the same consciousness used in creating them."</div>
+                        <a class="link" href="" target="_blank"></a>
+                    </div>
+                    <div class="grid-item quote-cited quote" data-category="spirituality">
+                        <div class="category">Inspiration</div>
+                        <div class="medium">Quote</div>
+                        <img class="image" src="assets/images/reference-photos/einstein.jpg"></img>
+                        <div class="title"></div>
+                        <div class="author">Albert Einstein</div>
+                        <div class="date"></div>
+                        <div class="text">"Coincidences are God's way of staying anonymous."</div>
+                        <a class="link" href="" target="_blank"></a>
+                    </div>
+                    <div class="grid-item work-cited book" data-category="personal growth">
+                        <div class="category">Inspiration</div>
+                        <div class="medium">Book</div>
+                        <img class="image" src="https://books.google.com/books/content?id=c9shMX7HLY0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71gLIXBuQo_ywX5GVKS3eEECv5wWHhIL5ViqH2zdWqbNeEnxM85N5fZMJtF9XmXf0Vb3Hd8M8eogJfVjLgp8PfIlspo25W3GyLrN-H7jsndf7b0GSzUBPIKVrH56WnanCfwwO8U"></img>
+                        <div class="title">A Brief History of Everything</div>
+                        <div class="author">Ken Wilber</div>
+                        <div class="date"></div>
+                        <a class="link" href="https://books.google.com/books/about/A_Brief_History_of_Everything.html?id=c9shMX7HLY0C" target="_blank"><button class="button">View book</button></a>
+                        <hr>
+                        <div class="text">In a breathtaking trip from the Big Bang to the Postmodern world we inhabit, Ken Wilber examines the universe and our place in it, and comes up with an accessible and entertaining account of how it all fits together.</div>
+                    </div>
+                    <div class="grid-item quote-cited quote" data-category="personal growth">
+                        <div class="category">Insights</div>
+                        <div class="medium">Quote</div>
+                        <div class="title"></div>
+                        <div class="author"></div>
+                        <div class="date"></div>
+                        <div class="text">The inventor's persistent question: <br><i>create something new or make do with what one has.</i></div>
+                        <a class="link" href="" target="_blank"></a>
+                    </div>
+                    <div class="grid-item work-uncited drawing" data-category="spirituality">
+                        <div class="category">Drawings</div>
+                        <div class="medium">Drawing</div>
+                        <a class="image image-preview" href="#img-Soulgate">
+                            <img src="assets/images/carousel/soulgate_color.png" class="">
+                            <div class="image-preview__icon">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </div>
+                        </a>
+                        <!-- lightbox container hidden with CSS -->
+                        <a href="#_" class="lightbox" id="img-Soulgate">
+                            <img src="assets/images/carousel/soulgate_color.png">
+                        </a>
+                        <div class="title">
+                            <h4><b>Soulgate</b></h4></div>
+                        <div class="author"></div>
+                        <div class="text">Pen drawing with digital color</div>
+                        <div class="date">January 2017</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <h2>Artopia</h2>
+                    </a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <img class="navbutton" alt="navigation" src="assets/images/sitenav/compass_4.png" height="75px" onclick="openNav()"></img>
+                </ul>
+                <p class="navbar-text navbar-right license">All original work on this site is released under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license.</p>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>

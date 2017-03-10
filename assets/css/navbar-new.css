@@ -1,0 +1,137 @@
+ /*Navbar */
+.navbar {
+  margin: 0px;
+  border-radius: 0px;
+  background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+}
+
+.navbar-brand {
+  padding: 0px 0px 0px 15px;
+}
+
+.license {
+  text-align:center;
+}
+.navbutton {
+}
+.navbutton:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    /*width: 0; /* 0 width - change this with JavaScript */*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 120px;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+    /*background-color: #222; /* Black*/*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/climpek.png");*/
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000222+100 */
+    background: #000000; /* Old browsers */
+    /*background: -moz-linear-gradient(left, #000000 0%, #000222 100%); /* FF3.6-15 */*/
+    /*background: -webkit-linear-gradient(left, #000000 0%,#000222 100%); /* Chrome10-25,Safari5.1-6 */*/
+    /*background: linear-gradient(to right, #000000 0%,#000222 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/climpek.png"), linear-gradient(to bottom, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);*/
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000222',GradientType=1 ); /* IE6-9 */*/
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    /*padding: 20px;*/
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Navigation map */
+.navmap {
+  position: fixed;
+  width: 220px;
+  height: 0px;
+  top: 60px;
+  right: 0px;
+}
+
+/* Navigation links */
+.nav-link {
+  position:absolute;
+}
+.nav-link__icon {
+  height: 30px;
+}
+.nav-link__text {
+  font-size: 0.5em;
+  color: #222;
+}
+
+.nav-link__icon::after {
+  /*content: "Temple";*/
+  /*z-index: 999;*/
+}
+.nav-link:hover {
+  -webkit-filter: brightness(130%);
+  filter: brightness(130%);
+  color: #222;
+}
+.nav-link.temple {
+  top: 30px;
+  left: 0px;
+}
+.nav-link.gallery {
+  top: 20px;
+  left: 60px;
+}
+.nav-link.library {
+  top: 50px;
+  left: 100px;
+}
+.nav-link.laboratory {
+  top: 120px;
+  left: 100px;
+}
+.nav-link.sky-lounge {
+  top: 180px;
+  left: 80px;
+}
+.nav-link.stargate {
+  top: 130px;
+  left: 10px;
+}

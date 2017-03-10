@@ -1,0 +1,340 @@
+.item-portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*background-color: #1abc9c;*/
+    /*background-color: beige;*/
+    /*background-color: #a6a188;*/
+    /*background-color: #0f7019;*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/arches.png");*/
+    /*background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");*/
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.container-isotope {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    padding: 20px;
+}
+
+
+/* ---- button-group ---- */
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+.button-group .button:first-child {
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+
+/* ---- isotope ---- */
+
+.grid {
+    /*border: 1px solid #333;*/
+}
+
+
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    background: #888;
+    color: #262524;
+    box-shadow: 5px 5px 5px #101010;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.element-item>* {
+    margin: 0;
+    padding: 0;
+}
+
+.element-item .name {
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.element-item .detail {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.element-item .author {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    color: white;
+}
+
+.element-item .image {
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    color: white;
+}
+
+.element-item.book.title {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+.element-item.book {
+    background-color: #F80;
+    background-color: hsl( 36, 100%, 50%);
+}
+
+.element-item.quote {
+    background-color: #08F;
+    background-color: hsl( 216, 100%, 50%);
+}
+
+
+/* grid-item */
+
+.grid-item {
+    position: relative;
+    float: left;
+    width: 300px;
+    /*min-height: 250px;*/
+    margin: 5px;
+    padding-bottom: 10px;
+    /*padding: 10px;*/
+    /*background: #888;*/
+    background: DarkSlateGrey;
+    color: AntiqueWhite;
+    box-shadow: 5px 5px 5px #101010;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.grid-item a {
+    color: AntiqueWhite;
+}
+
+.grid-item .link {
+    margin: 10px 10px;
+    /*padding: 3px;*/
+    font-size: 1.2em;
+    /*border: 2px solid #333;*/
+    /*line-height: 2;*/
+}
+.grid-item .link:hover {
+    color: #333;
+}
+
+.grid-item .date,
+.grid-item .title,
+.grid-item .text {
+    margin: 0px 10px;
+}
+
+.grid-item .category {
+    display: none;
+}
+
+.grid-item .medium {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px 10px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+
+/* Work-uncited */
+.grid-item.work-uncited {
+    min-height: 250px;
+}
+.grid-item.work-uncited .image,
+.grid-item.work-uncited .image img {
+    width: 100%;
+    /*margin-bottom: 10px;*/
+}
+
+
+
+/* Work-cited */
+
+.grid-item.work-cited {
+    /*padding-top: 15px;*/
+}
+
+.grid-item.work-cited .image {
+    width: 120px;
+    float: left;
+    margin: 7px;
+    /*position: absolute;
+  left: 10px;
+  bottom: 20px;*/
+}
+
+.grid-item.work-cited .title {
+    margin: 0px 10px;
+    font-size: 1.3em;
+}
+
+.grid-item.work-cited .author {
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: 110px;*/
+    text-shadow: 1px 1px #333;
+}
+
+.grid-item.work-cited .text {
+    /*position: absolute;
+  left: 10px;
+  top: 15px;*/
+    /*padding-left: 10px;*/
+    margin: 0px 10px;
+    /*font-size: 1.7em;*/
+}
+
+
+/* Quote-cited */
+
+.grid-item.quote-cited {
+    /*padding-top: 15px;*/
+}
+
+.grid-item.quote-cited .image {
+    width: 120px;
+    float: left;
+    margin: 15px 5px 5px;
+    /*position: absolute;
+  left: 10px;
+  bottom: 20px;*/
+}
+
+.grid-item.quote-cited .author {
+    position: absolute;
+    left: 7px;
+    /*top: 110px;*/
+    top: 120px;
+    text-shadow: 1px 1px #333;
+    background-color: hsla(0, 0%, 0%, 0.3);
+}
+
+.grid-item.quote-cited .text {
+    /*position: absolute;
+  left: 10px;
+  top: 15px;*/
+    /*padding-left: 10px;*/
+    margin: 10px 10px;
+    font-size: 1.7em;
+}
+
+
+/* Gallery Lightbox */
+
+.lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+    /** Pad the lightbox image */
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    /** Unhide lightbox **/
+    display: block;
+}
+
+.image-preview, .image-preview img {
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.image-preview:hover {
+    background: white;
+}
+
+.image-preview:hover img {
+    opacity: 0.2;
+}
+
+.image-preview:hover .image-preview__icon {
+    opacity: 1;
+}
+
+.image-preview__icon {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.image-preview__icon span {
+    background: DarkSlateGrey;
+    color: white;
+    font-size: 16px;
+    padding: 16px 16px;
+}

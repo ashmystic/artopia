@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="125"
+   height="195"
+   viewBox="0 0 125 195"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="map-outline.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="0.72040281"
+     inkscape:cx="511.56545"
+     inkscape:cy="269.37693"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     id="svgEditorBackground"
+     x="0"
+     y="-275"
+     width="1170"
+     height="470"
+     style="fill:none;stroke:none" />
+  <polyline
+     id="e397_polyline"
+     style="fill:none;stroke:#000000;stroke-width:3px;stroke-dasharray:15"
+     points="447 130 457 133 473 142 480 156 480 178 484 189 484 206 481 224 470 235 463 253 462 265 462 276 453 282 443 286 433 290 423 284 411 276 403 268 402 255 403 243 394 230 389 220 389 205 394 192 393 174 393 165 393 153 403 146 410 133 426 129 448.708 129.187"
+     transform="matrix(1.1801,-0.0173803,0.0173803,1.1801,-456.39911,-138.22448)" />
+</svg>

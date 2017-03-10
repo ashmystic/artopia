@@ -1,0 +1,104 @@
+.day-ground {
+  background: #0f7019;
+  background-image: url("../images/textures/nice-snow.png");
+}
+.day-gradient {
+    /*background: black;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+59,53cbf1+59,0f7019+79 */
+    background: #05abe0;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(top, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);*/
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);*/
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);*/
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#0f7019', GradientType=0);*/
+    /* IE6-9 */
+    background-image: url("../images/textures/nice-snow.png"), -webkit-linear-linear-gradient(top, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
+    background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
+    background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
+}
+.day-sky {
+  background: #05abe0;
+  background-image: url("../images/textures/nice-snow.png");
+  transform: rotate(-180deg);
+}
+.day-sky >*{
+  /* Rotate text rightside-up */
+    transform: rotate(180deg);
+}
+.sunset-ground {
+  color: white;
+  background: #07330b;
+  background-image: url("../images/textures/nice-snow.png");
+}
+.sunset-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f013d+0,011759+19,e03400+60,f20000+69,07330b+79 */
+    color: white;
+    background: #1f013d;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(top, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);*/
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);*/
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);*/
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f013d', endColorstr='#07330b', GradientType=0);*/
+    /* IE6-9 */
+
+    background-image: url("../images/textures/nice-snow.png"), -webkit-linear-linear-gradient(top, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);
+    background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);
+    background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);
+
+}
+.sunset-sky {
+  color: white;
+  background: #1f013d;
+  background-image: url("../images/textures/nice-snow.png");
+  transform: rotate(-180deg);
+  /*-webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -ms-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+ transform: rotate(180deg);*/
+}
+.sunset-sky >*{
+  /* Rotate text rightside-up */
+    transform: rotate(180deg);
+}
+.night-ground {
+  color: white;
+  background: #07330b;
+  /*background-image: url("../images/textures/nice-snow.png");*/
+  background-image: url("../images/textures/nice-snow.png");
+}
+.night-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,011759+67,07330b+79 */
+    color: white;
+    background: #07330b;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);*/
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);*/
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, #000000 0%, #011759 67%, #07330b 79%);*/
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#07330b', GradientType=0);*/
+    /* IE6-9 */
+
+    background-image: url("../images/textures/nice-snow.png"), -webkit-linear-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);
+    background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);
+    background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #000000 0%, #011759 67%, #07330b 79%);
+}
+.night-sky {
+  color: white;
+  background: #000000;
+  /*background-image: url("../images/textures/nice-snow.png");*/
+  background-image: url("../images/textures/nice-snow.png");
+  transform: rotate(-180deg);
+}
+.night-sky >*{
+  /* Rotate text rightside-up */
+    transform: rotate(180deg);
+}
