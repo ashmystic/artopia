@@ -1,6 +1,15 @@
 $(function() {
 // Init isotope
     isotopeInit('.grid', '#filters', '#sorts');
+    // $('.grid').isotope('reLayout');
+
+    /** Fire a click event to resize isotope after the images are loaded.
+    This should be replaced with https://github.com/desandro/imagesloaded  */
+    setTimeout(function () {
+      $('#filters .show-all').click();
+    }, 100);
+
+
 });
 
 
@@ -17,6 +26,7 @@ var $grid = $(grid).isotope({
     category: '[data-category]'
   }
 });
+
 
 // filter functions
 var filterFns = {
