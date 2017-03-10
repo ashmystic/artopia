@@ -1,0 +1,53 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <!-- <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"> -->
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+<!-- ### -->
+
+  <!-- <title>Artopia > Home</title> -->
+  <!-- Flickity - image gallery with selected style -->
+  <!-- <meta charset="utf-8"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- Include jQuery -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="assets/javascript/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="assets/javascript/bootstrap.min.js"></script>
+  <!-- Include Bootstrap -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Include Flickity -->
+  <script src="assets/javascript/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="assets/css/flickity.min.css">
+  <!-- Include Isotope -->
+  <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
+  <script src="assets/javascript/isotope.pkgd.min.js"></script>
+  <!-- Include fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+  <!-- Include Custom styles and scripts -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/category-page.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/button.css">
+  <link rel="stylesheet" href="assets/css/flickity.css">
+  <link rel="stylesheet" href="assets/css/daylight.css">
+  <link rel="stylesheet" href="assets/css/isotope.css">
+
+  <script src="assets/javascript/daylightInit.js"></script>
+  <script src="assets/javascript/isotopeInit.js"></script>
+  <script src="assets/javascript/flickeryInit.js"></script>
+  <script src="assets/javascript/navbarInit.js"></script>
+  <script src="assets/javascript/pageloadInit.js"></script>
+</head>

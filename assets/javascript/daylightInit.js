@@ -9,7 +9,7 @@ function daylightInit() {
     // Time adjustment
     var header = $('.header-sky');
     var carousel = $('.carousel');
-    var background = $('.item-portfolio');
+    var background = $('.item-portfolio.item-portfolio-new-items');
     var d = new Date();
     var n = d.getHours();
     console.log(n);

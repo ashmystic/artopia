@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <!-- <h1 class="page-heading">Posts</h1> -->
+
+  <div class="category-page-header">
+      <div class="container-fluid">
+          <img src="assets/images/category-page-header/{{ page.header-image }}" class="category-page-header__image" alt="gallery" />
+          <div class="category-page-header__title">
+              <h3>{{ page.title | escape }}</h3>
+              <h4>{{page.subtitle | escape}}</h4>
+          </div>
+      </div>
+  </div>
+  {% include item-portfolio.html %}
+
+</div>
