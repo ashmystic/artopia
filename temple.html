@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Artopia > Temple</title>
+    <!-- Flickity - image gallery with selected style -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include jQuery -->
+    <script src="assets/javascript/jquery.min.js"></script>
+    <!-- Include Bootstrap -->
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Include Flickity -->
+    <script src="assets/javascript/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="assets/css/flickity.min.css">
+    <!-- Include Isotope -->
+    <script src="assets/javascript/isotope.pkgd.min.js"></script>
+    <!-- Include fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+    <!-- Include Custom styles and scripts -->
+    <link rel="stylesheet" href="assets/css/category-page.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/isotope.css">
+
+    <script src="assets/javascript/isotopeInit.js"></script>
+    <script src="assets/javascript/navbarInit.js"></script>
+    <!-- <script src="assets/javascript/script.js"></script> -->
+</head>
+
+<body>
+  <div id="theSidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!-- <a href="#">About</a> -->
+      <!-- <a href="#">Gallery</a> -->
+      <!-- <a href="#">Stargate</a> -->
+      <!-- <a href="#">Library</a> -->
+      <div class="navmap">
+        <img class="map-background" alt="navigation-map" src="assets/images/sitenav/map_background.png"></img>
+            <a href="temple.html" class="nav-link temple">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/temple_icon.png"></img>
+                <div class="nav-link__text">Temple</div>
+            </a>
+            <a href="gallery.html" class="nav-link gallery">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/gallery_icon.png"></img>
+                <div class="nav-link__text">Gallery</div>
+            </a>
+            <a href="library.html" class="nav-link library">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/library_icon.png"></img>
+                <div class="nav-link__text">Library</div>
+            </a>
+            <a href="laboratory.html" class="nav-link laboratory">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/laboratory_icon.png"></img>
+                <div class="nav-link__text">Laboratory</div>
+            </a>
+            <a href="sky-lounge.html" class="nav-link sky-lounge">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/sky_lounge_icon.png"></img>
+                <div class="nav-link__text">Sky Lounge</div>
+            </a>
+            <a href="stargate.html" class="nav-link stargate">
+                <img class="nav-link__icon temple-icon" alt="" src="assets/images/sitenav/stargate_icon.png"></img>
+                <div class="nav-link__text">Stargate</div>
+            </a>
+            <a href="garden.html" class="nav-link garden">
+                <img class="nav-link__icon tree-icon" alt="" src="assets/images/sitenav/tree_icon.png"></img>
+                <div class="nav-link__text">Garden (About)</div>
+            </a>
+      </div>
+  </div>
+
+    <div id="content">
+        <nav id="theNavbar" class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <h2>Artopia</h2>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <img class="navbutton" alt="navigation" src="assets/images/sitenav/compass_4.png" height="75px" onclick="openNav()"></img>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="category-page-header">
+            <div class="container-fluid">
+              <img src="assets/images/category-page-header/temple_interior_color.png" class="category-page-header__image" alt="temple" />
+                <div class="category-page-header__title">
+                    <h3>Temple</h3>
+                    <h4>Bits of insight and wisdom</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="item-portfolio item-portfolio-temple">
+            <div class="container container-isotope">
+
+                <h2>Filter</h2>
+                <div id="filters" class="button-group">
+                    <button class="button is-checked" data-filter="*">show all</button>
+                    <button class="button" data-filter=".quote">quote</button>
+                    <button class="button" data-filter=".book">book</button>
+                    <button class="button" data-filter=".art">art</button>
+                    <button class="button" data-filter=".video">video</button>
+                    <button class="button" data-filter=".website">website</button>
+                </div>
+                <h2>Sort</h2>
+                <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
+                    <button class="button" data-sort-by="title">title</button>
+                    <button class="button" data-sort-by="author">author</button>
+                    <button class="button" data-sort-by="category">category</button>
+                </div>
+
+                <div class="grid">
+
+                    <div class="grid-item work-uncited drawing" data-category="spirituality">
+                        <div class="category">Drawings</div>
+                        <div class="medium">Drawing</div>
+                        <a class="image image-preview" href="#img-Soulgate">
+                            <img src="assets/images/soulgate_color.png" class="">
+                            <div class="image-preview__icon">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </div>
+                        </a>
+                        <!-- lightbox container hidden with CSS -->
+                        <a href="#_" class="lightbox" id="img-Soulgate">
+                            <img src="assets/images/soulgate_color.png">
+                        </a>
+                        <div class="title">
+                            <h4><b>Soulgate</b></h4></div>
+                        <div class="author"></div>
+                        <div class="text">Pen drawing with digital color</div>
+                        <div class="date">January 2017</div>
+                    </div>
+                    <div class="grid-item work-uncited drawing" data-category="spirituality">
+                        <div class="category">Drawings</div>
+                        <div class="medium">Drawing</div>
+                        <a class="image image-preview" href="#img-Library">
+                            <img src="assets/images/library_exterior_color.png" class="">
+                            <div class="image-preview__icon">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </div>
+                        </a>
+                        <!-- lightbox container hidden with CSS -->
+                        <a href="#_" class="lightbox" id="img-Library">
+                            <img src="assets/images/library_exterior_color.png">
+                        </a>
+                        <div class="title">
+                            <h4><b>Akashic Library</b></h4></div>
+                        <div class="author"></div>
+                        <div class="text">Pen drawing with digital color</div>
+                        <div class="date">January 2017</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <h2>Artopia</h2>
+                    </a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <img class="navbutton" alt="navigation" src="assets/images/sitenav/compass_4.png" height="75px" onclick="openNav()"></img>
+                </ul>
+                <p class="navbar-text navbar-right license">All original work on this site is released under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license.</p>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>
