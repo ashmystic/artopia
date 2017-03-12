@@ -18,8 +18,8 @@ function daylightInit() {
         header.addClass("night-sky");
         carousel.addClass("night-gradient");
         background.addClass("night-ground");
-    } else if (n > 16 && n <= 19) {
-        // If time is between 4PM – 7PM sunset theme to carousel
+    } else if ((n > 5 && n <= 8) || (n > 17 && n <= 20)) {
+        // If time is between 5AM - 8AM or 5PM – 8PM sunrise/sunset theme to carousel
         header.addClass("sunset-sky");
         carousel.addClass("sunset-gradient");
         background.addClass("sunset-ground");

@@ -27,13 +27,8 @@
 }
 
 
-
-a {
-  color: black;
-}
 a:hover {
   text-decoration: none;
-  color: white;
 }
 
 .carousel-cell__image {
@@ -54,8 +49,8 @@ a:hover .carousel-cell__image  {
 
 /* Scale down and blur non-selected cells */
 .carousel-cell .carousel-cell__image img {
-  /*padding-right: 0px;*/
     display: block;
+    margin: auto;
     max-width: 90%;
     max-height: 90%;
     /* dim unselected */
@@ -96,8 +91,6 @@ a:hover .carousel-cell__image  {
     }
     .carousel-cell .carousel-cell__text {
         text-align:left;
-        padding-top: 20px;
-        /*align-self: center;*/
     }
 }
 @media screen and ( min-width: 768px) {

@@ -19,6 +19,12 @@
     background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
     background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
 }
+.day-gradient a {
+  color: black;
+}
+.day-gradient a:hover {
+  color: #333;
+}
 .day-sky {
   background: #05abe0;
   background-image: url("../images/textures/nice-snow.png");
@@ -51,6 +57,12 @@
     background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);
     background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #1f013d 0%, #011759 19%, #e03400 60%, #f20000 69%, #07330b 79%);
 
+}
+.sunset-gradient a {
+  color: white;
+}
+.sunset-gradient a:hover {
+  color: LightBlue;
 }
 .sunset-sky {
   color: white;
@@ -90,6 +102,12 @@
     background-image: url("../images/textures/nice-snow.png"), -webkit-linear-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);
     background-image: url("../images/textures/nice-snow.png"), -moz-linear-linear-gradient(top, #000000 0%, #011759 67%, #07330b 79%);
     background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #000000 0%, #011759 67%, #07330b 79%);
+}
+.night-gradient a {
+  color: white;
+}
+.night-gradient a:hover {
+  color: LightBlue;
 }
 .night-sky {
   color: white;
