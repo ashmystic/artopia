@@ -1,16 +1,20 @@
 
 .carousel-cell {
     width: 70%;
-    height: 200px;
+    /*height: 200px;*/
+    height: 300px;
     /* flex-box, center image in cell */
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
+    flex-direction: column-reverse;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
     -webkit-align-items: center;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+
     padding-bottom: 40px;
 
     pointer-events: none;
@@ -35,6 +39,7 @@ a:hover {
 .carousel-cell__image {
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
   transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+
 }
 
 /* Brighten and zoom image on hover */
@@ -49,6 +54,7 @@ a:hover .carousel-cell__image  {
 
 /* Scale down and blur non-selected cells */
 .carousel-cell .carousel-cell__image img {
+  /*padding-right: 0px;*/
     display: block;
     max-width: 90%;
     max-height: 90%;
@@ -75,23 +81,33 @@ a:hover .carousel-cell__image  {
 .carousel-cell .carousel-cell__text {
     opacity: 0;
     transition: opacity 0.5s linear;
+    text-align:center;
 }
 
 .carousel-cell.is-selected .carousel-cell__text {
     opacity: 1;
 }
 
-@media screen and ( min-width: 540px) {
+@media screen and ( min-width: 400px) {
     .carousel-cell {
-        height: 300px;
+        flex-direction: row;
+        -webkit-align-items: flex-end;
+        align-items: flex-end;
+    }
+    .carousel-cell .carousel-cell__text {
+        text-align:left;
+        padding-top: 20px;
+        /*align-self: center;*/
     }
 }
 @media screen and ( min-width: 768px) {
+  .carousel-cell .carousel-cell__text {
+      align-self: center;
+  }
     .carousel-cell {
         height: 400px;
     }
 }
-
 @media screen and ( min-width: 960px) {
     .carousel-cell {
         width: 60%;

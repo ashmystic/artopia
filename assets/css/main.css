@@ -17,7 +17,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  
+
   /* Hide by default for most pages */
   display:none;
 }
@@ -33,9 +33,9 @@ display:block;
 
 @media screen and ( max-width: 540px) {
   h1, h2, h3 {
-    font-size: 1.1em;
+    /*font-size: 1.1em;*/
   }
   h4, h5, h6 {
-    font-size: 0.7em;
+    /*font-size: 0.7em;*/
   }
 }
