@@ -31,9 +31,16 @@ function toggleNav() {
 
 function navbarInit() {
   /* Close nav when clicking anywhere except the side nav */
-  document.getElementById("content").addEventListener('click', closeNav, true);
+  // document.getElementById("content").addEventListener('click', closeNav, true);
 
-//  document.getElementById("navbutton").removeEventListener('click', closeNav, true);
+/*
+ var navButtons = document.getElementsByClassName("navbutton");
+ [].forEach.call(navButtons, function (navButton) {
+   console.log(navButton);
+   navButton.removeEventListener('click', closeNav, true);
+ });
+ */
+
 //  document.getElementById("navbutton").addEventListener('click', toggleNav, true);
 
 //  closeNav();
