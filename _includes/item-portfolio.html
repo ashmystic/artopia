@@ -21,12 +21,13 @@
         </div>
 
         <div class="grid">
-            <div class="grid-item work-uncited website" data-category="general wisdom, society">
+            <!-- <div class="grid-item work-uncited website" data-category="general wisdom, society">
                 <div class="category">Inspiration</div>
                 <div class="medium">Website</div>
                 <img class="image" src="http://www.hippiefuturist.me/wp-content/uploads/2016/06/self-portrait-e1486771781566.jpg"></img>
                 <div class="title">
-                    <h4><b>HippieFuturist.me</b></h4></div>
+                    <h4><b>HippieFuturist.me</b></h4>
+                </div>
                 <div class="author"></div>
                 <div class="date"></div>
                 <div class="text">This is my personal website containing random projects.</div>
@@ -72,7 +73,7 @@
                 <div class="text">The inventor's persistent question: <br><i>create something new or make do with what one has.</i></div>
                 <a class="link" href="" target="_blank"></a>
             </div>
-            <div class="grid-item work-uncited drawing" data-category="spirituality">
+            <div class="grid-item gallery-image " data-category="spirituality">
                 <div class="category">Drawings</div>
                 <div class="medium">Drawing</div>
                 <a class="image image-preview" href="#img-Soulgate">
@@ -81,7 +82,6 @@
                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                     </div>
                 </a>
-                <!-- lightbox container hidden with CSS -->
                 <a href="#_" class="lightbox" id="img-Soulgate">
                     <img src="assets/images/carousel/soulgate_color.png">
                 </a>
@@ -90,20 +90,85 @@
                 <div class="author"></div>
                 <div class="text">Pen drawing with digital color</div>
                 <div class="date">January 2017</div>
-            </div>
+            </div> -->
 
-            {% for item in site.collection %}
-            <div class="grid-item {{ item.layout }} website" data-category="general wisdom, society">
-                <div class="category">{{ item.category }}</div>
-                <div class="medium">{{ item.medium }}</div>
-                <img class="image" src="{{ item.image }}"></img>
-                <div class="title">
-                    <h4><b>{{ item.title }}</b></h4></div>
-                <div class="author">{{ item.author }}</div>
-                <div class="text">{{ item.text }}</div>
-                <div class="date">{{ item.date | date_to_long_string }}</div>
-                <a class="link" href="{{ item.link }}" target="_blank"><button class="button">Visit site</button></a>
-            </div>
+            <!-- Get the collection -->
+            {% if page.item-category == 'new-items' %}
+              {% assign items = (site.portfolio-items | sort: 'date') %}
+            {% else %}
+              {% assign items = site.portfolio-items | where:'category', page.item-category %}
+            {% endif %}
+
+            {% for item in items %}
+            <div class="grid-item {{ item.card-class }}" data-category="general wisdom, society">
+              {% case item.card-class %}
+                {% when 'gallery-image' %}
+                  <div class="category">{{ item.category }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <a class="image image-preview" href="#img-{{ item.title }}">
+                      <img src="{{ item.image }}" class="">
+                      <div class="image-preview__icon">
+                          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                      </div>
+                  </a>
+                  <!-- lightbox container hidden with CSS -->
+                  <a href="#_" class="lightbox" id="img-{{ item.title }}">
+                      <img src="{{ item.image }}">
+                  </a>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author"></div>
+                  <div class="text">{{ item.text }}</div>
+                  <div class="date">{{ item.date | date_to_long_string }}</div>
+                {% when 'quote-cited' %}
+                  <div class="category">{{ item.category }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title"></div>
+                  <div class="author">{{ item.author }}</div>
+                  <div class="date"></div>
+                  <div class="text">{{ item.text }}</div>
+                  <a class="link" href="" target="_blank"></a>
+                  </div>
+                {% when 'work-cited' %}
+                  <div class="category">{{ item.category }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author">{{ item.author }}</div>
+                  <!-- <div class="date">{{ item.date | date_to_long_string }}</div> -->
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
+                  <hr>
+                  <div class="text">{{ item.text }}</div>
+                {% when 'work-uncited' %}
+                  <div class="category">{{ item.category }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author"></div>
+                  <div class="date"></div>
+                  <div class="text">{{ item.text }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">Visit site</button></a>
+                  </div>
+                {% else %}
+                  <div class="category">{{ item.category }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <img class="image" src="{{ item.image }}"></img>
+                  <div class="title">
+                      <h4><b>{{ item.title }}</b></h4>
+                  </div>
+                  <div class="author">{{ item.author }}</div>
+                  <div class="text">{{ item.text }}</div>
+                  <div class="date">{{ item.date | date_to_long_string }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">Visit site</button></a>
+                  </div>
+              {% endcase %}
+              </div>
             {% endfor %}
         </div>
     </div>

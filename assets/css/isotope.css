@@ -193,12 +193,19 @@
 
 
 /* Work-uncited */
-.grid-item.work-uncited {
+/* Gallery-image */
+.grid-item.work-uncited,
+.grid-item.gallery-image {
     min-height: 250px;
 }
 .grid-item.work-uncited .image,
-.grid-item.work-uncited .image img {
+.grid-item.work-uncited .image img,
+.grid-item.gallery-image .image,
+.grid-item.gallery-image .image img {
+    display: block;
+    margin: auto;
     width: 100%;
+    max-height: 300px;
     /*margin-bottom: 10px;*/
 }
 

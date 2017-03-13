@@ -5,7 +5,8 @@
   margin: 0px;
   border-radius: 0px;
   /*background-color: #b0a039;*/
-  background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+  /*background-image: url("../images/textures/skulls.png");*/
+  background-image: url("../images/textures/climpek.png");
 
   /*background-color: #b5a53a;*/
 /*background-image: url("https://www.transparenttextures.com/patterns/gun-metal.png");*/
@@ -121,8 +122,8 @@
 }
 .map-background {
   position: absolute;
-  width: 220px;
-  height: 300px;
+  width: 250px;
+  height: 330px;
   top: 0px;
   left: 0px;
   -webkit-filter: brightness(85%);
@@ -131,6 +132,9 @@
 
 .nav-link {
   position:absolute;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d1cb98+0,e5e5e5+100 */
+
 }
 .nav-link__icon {
   min-width: 30px;
@@ -141,6 +145,14 @@
 .nav-link__text {
   font-size: 0.5em;
   color: #222;
+  /*text-shadow: 2px 1px #FFF;*/
+
+  background: #d1cb98; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, hsla(54,25%,60%,1) 50%, hsla(0,0%,100%,0.0) 70%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, hsla(54,25%,60%,1) 50%, hsla(0,0%,100%,0.0) 70%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, hsla(54,25%,60%,1) 50%, hsla(0,0%,100%,0.0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1cb98', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 .nav-link__icon::after {
@@ -153,8 +165,8 @@
 }
 
 .nav-link.gallery {
-  top: 20px;
-  left: 60px;
+  top: 40px;
+  left: 80px;
 }
 .nav-link.sky-lounge {
   top: 40px;
@@ -162,25 +174,26 @@
 }
 .nav-link.stargate {
   top: 60px;
-  left: 120px;
+  left: 140px;
 }
 .nav-link.temple {
-  top: 130px;
-  left: 110px;
+  top: 155px;
+  left: 140px;
 }
 .nav-link.library {
-  top: 220px;
-  left: 80px;
+  top: 240px;
+  left: 110px;
 }
 .nav-link.laboratory {
-  top: 180px;
-  left: 0px;
+  top: 200px;
+  left: 25px;
 }
 .nav-link.garden {
-  top: 120px;
-  left: 50px;
+  top: 135px;
+  left: 65px;
 }
-.nav-link:hover {
+.nav-link:hover .nav-link__icon
+ {
   -webkit-filter: brightness(130%);
   filter: brightness(130%);
 }

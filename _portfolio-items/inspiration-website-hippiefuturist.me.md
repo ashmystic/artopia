@@ -1,8 +1,8 @@
 ---
 category: sky-lounge
 card-class: work-uncited
-text: collection-test
 medium: website
+text: collection-test
 image: http://www.hippiefuturist.me/wp-content/uploads/2016/06/self-portrait-e1486771781566.jpg
 title: HippieFuturist.me
 author:

@@ -33,4 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 collections:
-  - collection
+  - portfolio-items
