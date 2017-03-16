@@ -5,105 +5,40 @@
     <div class="container container-isotope">
 
         <h2>Filter</h2>
-        <div id="filters" class="button-group">
-            <button class="button is-checked show-all" data-filter="*">show all</button>
-            <button class="button" data-filter=".quote">quote</button>
-            <button class="button" data-filter=".book">book</button>
-            <button class="button" data-filter=".art">art</button>
-            <button class="button" data-filter=".video">video</button>
-            <button class="button" data-filter=".website">website</button>
+        <div id="filters">
+        {% for filtergroup in page.item-filters %}
+          <h4>{{ filtergroup.name }}</h4>
+          <div class="button-group" data-filter-group="{{ filtergroup.name }}">
+              <button class="button is-checked show-all" data-filter="*">show all</button>
+              {% for filter in filtergroup.filter-list %}
+              <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' }}">{{ filter }}</button>
+              {% endfor %}
+          </div>
+        {% endfor %}
         </div>
         <h2>Sort</h2>
-        <div id="sorts" class="button-group"> <button class="button is-checked" data-sort-by="original-order">original order</button>
-            <button class="button" data-sort-by="title">title</button>
-            <button class="button" data-sort-by="author">author</button>
-            <button class="button" data-sort-by="category">category</button>
+        <div id="sorts" class="button-group">
+          <button class="button is-checked" data-sort-by="date">Date</button>
+            <button class="button" data-sort-by="title">Title</button>
+            <button class="button" data-sort-by="author">Author</button>
         </div>
 
-        <div class="grid">
-            <!-- <div class="grid-item work-uncited website" data-category="general wisdom, society">
-                <div class="category">Inspiration</div>
-                <div class="medium">Website</div>
-                <img class="image" src="http://www.hippiefuturist.me/wp-content/uploads/2016/06/self-portrait-e1486771781566.jpg"></img>
-                <div class="title">
-                    <h4><b>HippieFuturist.me</b></h4>
-                </div>
-                <div class="author"></div>
-                <div class="date"></div>
-                <div class="text">This is my personal website containing random projects.</div>
-                <a class="link" href="http://www.hippiefuturist.me" target="_blank"><button class="button">Visit site</button></a>
-            </div>
-            <div class="grid-item quote-cited quote" data-category="general wisdom, society">
-                <div class="category">Inspiration</div>
-                <div class="medium">Quote</div>
-                <img class="image" src="assets/images/reference-photos/person_einstein.jpg"></img>
-                <div class="title"></div>
-                <div class="author">Albert Einstein</div>
-                <div class="date"></div>
-                <div class="text">"We cannot solve our problems with the same consciousness used in creating them."</div>
-                <a class="link" href="" target="_blank"></a>
-            </div>
-            <div class="grid-item quote-cited quote" data-category="spirituality">
-                <div class="category">Inspiration</div>
-                <div class="medium">Quote</div>
-                <img class="image" src="assets/images/reference-photos/person_einstein.jpg"></img>
-                <div class="title"></div>
-                <div class="author">Albert Einstein</div>
-                <div class="date"></div>
-                <div class="text">"Coincidences are God's way of staying anonymous."</div>
-                <a class="link" href="" target="_blank"></a>
-            </div>
-            <div class="grid-item work-cited book" data-category="personal growth">
-                <div class="category">Inspiration</div>
-                <div class="medium">Book</div>
-                <img class="image" src="https://books.google.com/books/content?id=c9shMX7HLY0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71gLIXBuQo_ywX5GVKS3eEECv5wWHhIL5ViqH2zdWqbNeEnxM85N5fZMJtF9XmXf0Vb3Hd8M8eogJfVjLgp8PfIlspo25W3GyLrN-H7jsndf7b0GSzUBPIKVrH56WnanCfwwO8U"></img>
-                <div class="title">A Brief History of Everything</div>
-                <div class="author">Ken Wilber</div>
-                <div class="date"></div>
-                <a class="link" href="https://books.google.com/books/about/A_Brief_History_of_Everything.html?id=c9shMX7HLY0C" target="_blank"><button class="button">View book</button></a>
-                <hr>
-                <div class="text">In a breathtaking trip from the Big Bang to the Postmodern world we inhabit, Ken Wilber examines the universe and our place in it, and comes up with an accessible and entertaining account of how it all fits together.</div>
-            </div>
-            <div class="grid-item quote-cited quote" data-category="personal growth">
-                <div class="category">Insights</div>
-                <div class="medium">Quote</div>
-                <div class="title"></div>
-                <div class="author"></div>
-                <div class="date"></div>
-                <div class="text">The inventor's persistent question: <br><i>create something new or make do with what one has.</i></div>
-                <a class="link" href="" target="_blank"></a>
-            </div>
-            <div class="grid-item gallery-image " data-category="spirituality">
-                <div class="category">Drawings</div>
-                <div class="medium">Drawing</div>
-                <a class="image image-preview" href="#img-Soulgate">
-                    <img src="assets/images/carousel/soulgate_color.png" class="">
-                    <div class="image-preview__icon">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </div>
-                </a>
-                <a href="#_" class="lightbox" id="img-Soulgate">
-                    <img src="assets/images/carousel/soulgate_color.png">
-                </a>
-                <div class="title">
-                    <h4><b>Soulgate</b></h4></div>
-                <div class="author"></div>
-                <div class="text">Pen drawing with digital color</div>
-                <div class="date">January 2017</div>
-            </div> -->
-
+        <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
+        <div class="grid {{ page.item-category }}">
             <!-- Get the collection -->
             {% if page.item-category == 'new-items' %}
-              {% assign items = (site.portfolio-items | sort: 'date') %}
+              {% assign items = (site.portfolio-items | sort: 'date'  | reverse) %}
             {% else %}
-              {% assign items = site.portfolio-items | where:'category', page.item-category %}
+              {% assign items = site.portfolio-items | where:'category', page.item-category | sort: 'date' | reverse %}
             {% endif %}
 
-            {% for item in items %}
-            <div class="grid-item {{ item.card-class }}" data-category="general wisdom, society">
+            {% for item in items limit:page.number-display-items %}
+            <div class="grid-item {{ item.card-class }} Category-{{ item.category }} Medium-{{ item.medium }}" data-category="general wisdom, society">
               {% case item.card-class %}
                 {% when 'gallery-image' %}
-                  <div class="category">{{ item.category }}</div>
+                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    View in {{ item.category | capitalize | replace: '-', ' ' }}
+                  </a>
                   <div class="medium">{{ item.medium }}</div>
                   <a class="image image-preview" href="#img-{{ item.title }}">
                       <img src="{{ item.image }}" class="">
@@ -122,7 +57,9 @@
                   <div class="text">{{ item.text }}</div>
                   <div class="date">{{ item.date | date_to_long_string }}</div>
                 {% when 'quote-cited' %}
-                  <div class="category">{{ item.category }}</div>
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
                   <div class="medium">{{ item.medium }}</div>
                   <img class="image" src="{{ item.image }}"></img>
                   <div class="title"></div>
@@ -130,9 +67,10 @@
                   <div class="date"></div>
                   <div class="text">{{ item.text }}</div>
                   <a class="link" href="" target="_blank"></a>
-                  </div>
                 {% when 'work-cited' %}
-                  <div class="category">{{ item.category }}</div>
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
                   <div class="medium">{{ item.medium }}</div>
                   <img class="image" src="{{ item.image }}"></img>
                   <div class="title">
@@ -144,7 +82,9 @@
                   <hr>
                   <div class="text">{{ item.text }}</div>
                 {% when 'work-uncited' %}
-                  <div class="category">{{ item.category }}</div>
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
                   <div class="medium">{{ item.medium }}</div>
                   <img class="image" src="{{ item.image }}"></img>
                   <div class="title">
@@ -153,10 +93,11 @@
                   <div class="author"></div>
                   <div class="date"></div>
                   <div class="text">{{ item.text }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">Visit site</button></a>
-                  </div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
                 {% else %}
-                  <div class="category">{{ item.category }}</div>
+                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  View in {{ item.category | capitalize | replace: '-', ' ' }}
+                </a>
                   <div class="medium">{{ item.medium }}</div>
                   <img class="image" src="{{ item.image }}"></img>
                   <div class="title">
@@ -165,8 +106,7 @@
                   <div class="author">{{ item.author }}</div>
                   <div class="text">{{ item.text }}</div>
                   <div class="date">{{ item.date | date_to_long_string }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">Visit site</button></a>
-                  </div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
               {% endcase %}
               </div>
             {% endfor %}

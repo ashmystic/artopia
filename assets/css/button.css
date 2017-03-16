@@ -34,7 +34,7 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    background-image: url("../images/textures/brushed-alum.png");
     background-color: peru;
     border: none;
     border-radius: 10px;
@@ -51,7 +51,7 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    background-image: url("../images/textures/brushed-alum.png");
     background-color: DarkSlateGrey;
     border: none;
     border-radius: 0px;
@@ -59,11 +59,12 @@
 }
 
 .button:hover {
-    background-color: DimGray
+    background-color: DimGray;
 }
 
 .button:active, .button.is-checked {
     /*background-color: chocolate;*/
     box-shadow: 0 2px #333;
     transform: translateY(3px);
+    background-color: DimGray;
 }

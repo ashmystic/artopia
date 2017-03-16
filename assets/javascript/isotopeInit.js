@@ -13,37 +13,65 @@ $(function() {
 });
 
 
-function isotopeInit(grid, filters, sorts) {
-
-// init Isotope
-var $grid = $(grid).isotope({
-  // itemSelector: '.element-item',
-  itemSelector: '.grid-item',
-  layoutMode: 'masonry',
-  getSortData: {
-    title: '.title',
-    author: '.author',
-    category: '[data-category]'
-  }
-});
-
+function isotopeInit(gridContainer, filterContainer, sortContainer) {
 
 // filter functions
 var filterFns = {
 };
 
-// bind filter button click
-$(filters).on('click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  // use filterFn if matches value
-  filterValue = filterFns[filterValue] || filterValue;
-  $grid.isotope({
-    filter: filterValue
-  });
+// store filter for each group
+var filters = {};
+
+// init Isotope
+var $grid = $(gridContainer).isotope({
+  itemSelector: '.grid-item',
+    layoutMode: 'masonry',
+    getSortData: {
+      date: '.date',
+      title: '.title',
+      author: '.author'
+      // category: '[data-category]'
+    },
+  filter: function() {
+
+    var isMatched = true;
+    var $this = $(this);
+
+    for ( var prop in filters ) {
+      var filter = filters[ prop ];
+      // use function if it matches
+     filter = filterFns[ filter ] || filter;
+      // test each filter
+      if ( filter ) {
+        isMatched = isMatched && $(this).is( filter );
+      }
+      // break if not matched
+      if ( !isMatched ) {
+        break;
+      }
+    }
+    return isMatched;
+  }
 });
 
+$(filterContainer).on( 'click', '.button', function() {
+  var $this = $(this);
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
+  filters[ filterGroup ] = $this.attr('data-filter');
+  // arrange, and use filter fn
+  $grid.isotope();
+
+  // Check for no results
+  checkResults($grid);
+});
+
+
+
 // bind sort button click
-$(sorts).on('click', 'button', function() {
+$(sortContainer).on('click', 'button', function() {
   var sortByValue = $(this).attr('data-sort-by');
   $grid.isotope({
     sortBy: sortByValue
@@ -60,3 +88,14 @@ $('.button-group').each(function(i, buttonGroup) {
 });
 
 };
+
+function checkResults(gridContainer){
+  var visibleItemsCount = gridContainer.data('isotope').filteredItems.length;
+
+  if( visibleItemsCount > 0 ){
+    $('.no-results').hide();
+  }
+  else{
+    $('.no-results').show();
+  }
+}

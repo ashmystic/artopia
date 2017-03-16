@@ -1,7 +1,7 @@
 ---
 category: sky-lounge
-card-class: quote-cited
 medium: quote
+card-class: quote-cited
 text:
 image: assets/images/reference-photos/person_einstein.jpg
 title: On Coincidences

@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Artopia
-email:
+email: andrew.scott.herman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -24,6 +24,38 @@ url: "https://aherman.github.io" # the base hostname & protocol for your site, e
 twitter_username:
 github_username:  jekyll
 
+collections:
+  - portfolio-items
+contactform:
+  - email: andrew.scott.herman@gmail.com
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      number-display-items: 50
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      item-filters:
+          -
+            name: "Medium"
+            filter-list:
+              - "Drawing"
+              - "Website"
+              - "Book"
+              - "Quote"
+          -
+            name: "Topic"
+            filter-list:
+              - "Spirituality"
+              - "Relationships"
+              - "Society"
+
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -32,5 +64,3 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-collections:
-  - portfolio-items

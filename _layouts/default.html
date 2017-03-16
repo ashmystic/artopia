@@ -9,7 +9,13 @@
 
     <div id="content">
       {% include navbar.html %}
+
       {{ content }}
+
+      {% if page.show-contactform %}
+        {% include contactform.html %}
+      {% endif %}
+
       {% include navbar.html %}
     </div>
 

@@ -45,6 +45,11 @@
     border-radius: 0 0.5em 0.5em 0;
 }
 
+.no-results {
+  padding: 5px;
+  background-color: hsla(360, 100%, 100%, 0.5);
+}
+
 
 /* ---- isotope ---- */
 
@@ -61,91 +66,13 @@
     clear: both;
 }
 
-
-/* ---- .element-item ---- */
-
-.element-item {
-    position: relative;
-    float: left;
-    width: 250px;
-    height: 250px;
-    margin: 5px;
-    padding: 10px;
-    background: #888;
-    color: #262524;
-    box-shadow: 5px 5px 5px #101010;
-    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-
-.element-item>* {
-    margin: 0;
-    padding: 0;
-}
-
-.element-item .name {
-    position: absolute;
-    left: 10px;
-    top: 60px;
-    text-transform: none;
-    letter-spacing: 0;
-    font-size: 12px;
-    font-weight: normal;
-}
-
-.element-item .detail {
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 0px;
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-}
-
-.element-item .author {
-    position: absolute;
-    right: 8px;
-    bottom: 5px;
-    color: white;
-}
-
-.element-item .image {
-    position: absolute;
-    left: 8px;
-    bottom: 5px;
-    color: white;
-}
-
-.element-item.book.title {
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 0px;
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-}
-
-.element-item.book {
-    background-color: #F80;
-    background-color: hsl( 36, 100%, 50%);
-}
-
-.element-item.quote {
-    background-color: #08F;
-    background-color: hsl( 216, 100%, 50%);
-}
-
-
 /* grid-item */
 
 .grid-item {
     position: relative;
     float: left;
     width: 300px;
+    max-width: 95%;
     /*min-height: 250px;*/
     margin: 5px;
     padding-bottom: 10px;
@@ -180,15 +107,24 @@
 }
 
 .grid-item .category {
-    display: none;
+  display:none;
+
+}
+div.new-items .grid-item .category {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0px 10px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  z-index: 1;
+}
+div.new-items .grid-item .category:hover {
+  background-color: hsla(0, 0%, 0%, 0.7);
 }
 
 .grid-item .medium {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 0px 10px;
-    background-color: hsla(0, 0%, 0%, 0.5);
+  display: none;
 }
 
 

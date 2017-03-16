@@ -7,4 +7,5 @@ subtitle: of my mind
 item-category: garden
 header-image: self_portrait_color.jpg
 layout: category-page
+show-contactform: true
 ---

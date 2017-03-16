@@ -1,8 +1,23 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Home
 item-category: new-items
+number-display-items: 12
+item-filters:
+    -
+      name: "Category"
+      filter-list:
+        - "Gallery"
+        - "Stargate"
+        - "Temple"
+        - "Library"
+        - "Laboratory"
+        - "Sky Lounge"
+    -
+      name: "Medium"
+      filter-list:
+        - "Drawing"
+        - "Website"
+        - "Book"
+        - "Quote"
 ---
