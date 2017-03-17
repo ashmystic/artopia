@@ -2,7 +2,6 @@
 category: sky-lounge
 medium: book
 card-class: work-cited
-text:
 image: https://books.google.com/books/content?id=c9shMX7HLY0C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71gLIXBuQo_ywX5GVKS3eEECv5wWHhIL5ViqH2zdWqbNeEnxM85N5fZMJtF9XmXf0Vb3Hd8M8eogJfVjLgp8PfIlspo25W3GyLrN-H7jsndf7b0GSzUBPIKVrH56WnanCfwwO8U
 title: A Brief History of Everything
 author: Ken Wilber

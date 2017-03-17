@@ -1,8 +1,10 @@
 .day-ground {
+  color: white;
   background: #0f7019;
   background-image: url("../images/textures/nice-snow.png");
 }
 .day-gradient {
+  color: white;
     /*background: black;*/
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+59,53cbf1+59,0f7019+79 */
     background: #05abe0;
@@ -20,12 +22,13 @@
     background-image: url("../images/textures/nice-snow.png"), linear-gradient(to bottom, #05abe0 0%, #53cbf1 59%, #53cbf1 59%, #0f7019 79%);
 }
 .day-gradient a {
-  color: black;
+  color: white;
 }
 .day-gradient a:hover {
-  color: #333;
+  color: #555;
 }
 .day-sky {
+  color: white;
   background: #05abe0;
   background-image: url("../images/textures/nice-snow.png");
   transform: rotate(-180deg);

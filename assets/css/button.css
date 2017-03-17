@@ -1,14 +1,21 @@
 /* ---- button-group ---- */
 
-.button-group {
-    margin-bottom: 20px;
+.button-group-container {
+  display:inline-block;
 }
 
-.button-group:after {
+.button-group {
+    margin-right: 20px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    display:inline-block;
+}
+
+/*.button-group:after {
     content: '';
     display: block;
     clear: both;
-}
+}*/
 
 .button-group .button {
     float: left;
@@ -23,6 +30,12 @@
 
 .button-group .button:last-child {
     border-radius: 0 0.5em 0.5em 0;
+}
+.button-label {
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  margin-right: 5px;
 }
 
 .button-large {

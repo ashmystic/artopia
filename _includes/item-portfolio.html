@@ -7,12 +7,14 @@
         <h2>Filter</h2>
         <div id="filters">
         {% for filtergroup in page.item-filters %}
-          <h4>{{ filtergroup.name }}</h4>
-          <div class="button-group" data-filter-group="{{ filtergroup.name }}">
-              <button class="button is-checked show-all" data-filter="*">show all</button>
-              {% for filter in filtergroup.filter-list %}
-              <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' }}">{{ filter }}</button>
-              {% endfor %}
+          <div class="button-group-container">
+            <label class="button-label" for="{{ filtergroup.name }}"><h4>{{ filtergroup.name }}</h4></label>
+            <div class="button-group" name="{{ filtergroup.name }}" data-filter-group="{{ filtergroup.name }}">
+                <button class="button is-checked show-all" data-filter="*">show all</button>
+                {% for filter in filtergroup.filter-list %}
+                <button class="button" data-filter=".{{ filtergroup.name }}-{{ filter | downcase | replace: ' ', '-' }}">{{ filter }}</button>
+                {% endfor %}
+            </div>
           </div>
         {% endfor %}
         </div>
@@ -21,6 +23,10 @@
           <button class="button is-checked" data-sort-by="date">Date</button>
             <button class="button" data-sort-by="title">Title</button>
             <button class="button" data-sort-by="author">Author</button>
+        </div>
+        <div id="sort-order" class="button-group">
+            <button class="button" data-sort-asc="true">▲</button>
+            <button class="button is-checked" data-sort-asc="false">▼</button>
         </div>
 
         <div class="no-results"><h4>No results found. Try adjusting filters.</h4></div>
@@ -55,7 +61,8 @@
                   </div>
                   <div class="author"></div>
                   <div class="text">{{ item.text }}</div>
-                  <div class="date">{{ item.date | date_to_long_string }}</div>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="date-display">{{ item.date | date_to_long_string }}</div>
                 {% when 'quote-cited' %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
@@ -78,7 +85,7 @@
                   </div>
                   <div class="author">{{ item.author }}</div>
                   <!-- <div class="date">{{ item.date | date_to_long_string }}</div> -->
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
                   <hr>
                   <div class="text">{{ item.text }}</div>
                 {% when 'work-uncited' %}
@@ -93,7 +100,7 @@
                   <div class="author"></div>
                   <div class="date"></div>
                   <div class="text">{{ item.text }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
                 {% else %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
@@ -105,8 +112,9 @@
                   </div>
                   <div class="author">{{ item.author }}</div>
                   <div class="text">{{ item.text }}</div>
-                  <div class="date">{{ item.date | date_to_long_string }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View</button></a>
+                  <div class="date">{{ item.date }}</div>
+                  <div class="date-display">{{ item.date | date_to_long_string }}</div>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
               {% endcase %}
               </div>
             {% endfor %}

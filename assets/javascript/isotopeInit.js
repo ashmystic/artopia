@@ -1,6 +1,6 @@
 $(function() {
 // Init isotope
-    isotopeInit('.grid', '#filters', '#sorts');
+    isotopeInit('.grid', '#filters', '#sorts', '#sort-order');
     // $('.grid').isotope('reLayout');
 
     /** Fire a click event to resize isotope after the images are loaded.
@@ -13,7 +13,7 @@ $(function() {
 });
 
 
-function isotopeInit(gridContainer, filterContainer, sortContainer) {
+function isotopeInit(gridContainer, filterContainer, sortContainer, sortOrderContainer) {
 
 // filter functions
 var filterFns = {
@@ -32,6 +32,7 @@ var $grid = $(gridContainer).isotope({
       author: '.author'
       // category: '[data-category]'
     },
+    sortAscending : isSortAscending(sortOrderContainer),
   filter: function() {
 
     var isMatched = true;
@@ -62,7 +63,11 @@ $(filterContainer).on( 'click', '.button', function() {
   // set filter for group
   filters[ filterGroup ] = $this.attr('data-filter');
   // arrange, and use filter fn
-  $grid.isotope();
+
+  $grid.isotope({
+    sortBy: getSortByValue(sortContainer),
+    sortAscending : isSortAscending(sortOrderContainer)
+  });
 
   // Check for no results
   checkResults($grid);
@@ -74,7 +79,17 @@ $(filterContainer).on( 'click', '.button', function() {
 $(sortContainer).on('click', 'button', function() {
   var sortByValue = $(this).attr('data-sort-by');
   $grid.isotope({
-    sortBy: sortByValue
+    sortBy: sortByValue,
+    sortAscending : isSortAscending(sortOrderContainer)
+  });
+});
+
+// bind sort order button click
+$(sortOrderContainer).on('click', 'button', function() {
+  var sortAsc = $(this).attr('data-sort-asc') === "true";
+  $grid.isotope({
+    sortBy: getSortByValue(sortContainer),
+    sortAscending : sortAsc
   });
 });
 
@@ -88,6 +103,13 @@ $('.button-group').each(function(i, buttonGroup) {
 });
 
 };
+
+function isSortAscending(sortOrderContainer){
+  return $(sortOrderContainer).find('.is-checked').attr('data-sort-asc') === "true";
+}
+function getSortByValue(sortContainer){
+  return $(sortContainer).find('.is-checked').attr('data-sort-by');
+}
 
 function checkResults(gridContainer){
   var visibleItemsCount = gridContainer.data('isotope').filteredItems.length;

@@ -20,7 +20,7 @@
 
 /* ---- button-group ---- */
 
-.button-group {
+/*.button-group {
     margin-bottom: 20px;
 }
 
@@ -43,7 +43,7 @@
 
 .button-group .button:last-child {
     border-radius: 0 0.5em 0.5em 0;
-}
+}*/
 
 .no-results {
   padding: 5px;
@@ -100,12 +100,14 @@
     color: #333;
 }
 
-.grid-item .date,
+
+.grid-item .date-display,
 .grid-item .title,
 .grid-item .text {
     margin: 0px 10px;
 }
 
+.grid-item .date,
 .grid-item .category {
   display:none;
 
