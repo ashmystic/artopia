@@ -52,7 +52,8 @@ defaults:
             name: "Topic"
             filter-list:
               - "Spirituality"
-              - "Relationships"
+              - "Nature"
+              - "Fantasy"
               - "Society"
 
 

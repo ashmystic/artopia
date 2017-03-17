@@ -141,7 +141,7 @@ div.new-items .grid-item .category:hover {
     display: block;
     margin: auto;
     width: 100%;
-    max-height: 300px;
+    /*max-height: 300px;*/
     /*margin-bottom: 10px;*/
 }
 
@@ -236,9 +236,9 @@ div.new-items .grid-item .category:hover {
 
 .lightbox img {
     /** Pad the lightbox image */
-    max-width: 90%;
-    max-height: 90%;
-    margin-top: 2%;
+    max-width: 95%;
+    max-height: 95%;
+    margin-top: 1%;
 }
 
 .lightbox:target {
