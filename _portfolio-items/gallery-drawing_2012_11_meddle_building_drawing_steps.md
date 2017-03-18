@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - digital-illustration
 topics:
   - architecture
 card-class: gallery-image

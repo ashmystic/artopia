@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
 topics:
   - architecture
   - fantasy

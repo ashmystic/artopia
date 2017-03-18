@@ -1,6 +1,8 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - algorithmic-drawing
+  - algorithmic-color
 topics:
   - nature
 card-class: gallery-image

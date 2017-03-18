@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
 topics:
   - fantasy
 card-class: gallery-image

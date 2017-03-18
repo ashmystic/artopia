@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
 topics:
   - spirituality
 card-class: gallery-image

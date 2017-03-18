@@ -9,6 +9,14 @@ header-image: gallery_interior_color.png
 layout: category-page
 item-filters:
     -
+      name: "Medium"
+      filter-list:
+        - "Pen"
+        - "Colored Pencil"
+        - "Digital Illustration"
+        - "Algorithmic Drawing"
+        - "Algorithmic Color"
+    -
       name: "Topic"
       filter-list:
         - "Spirituality"

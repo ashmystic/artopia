@@ -1,6 +1,8 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
+  - algorithmic-color
 topics:
   - spirituality
 card-class: gallery-image

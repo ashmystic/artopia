@@ -1,6 +1,8 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
+  - digital-illustration
 topics:
   - spirituality
   - nature

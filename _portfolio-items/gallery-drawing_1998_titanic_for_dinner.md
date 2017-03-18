@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: colored-pencil
+mediums:
+  - colored-pencil
 topics:
   - fantasy
 card-class: gallery-image

@@ -1,6 +1,8 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - pen
+  - colored-pencil
 topics:
   - nature
 card-class: gallery-image

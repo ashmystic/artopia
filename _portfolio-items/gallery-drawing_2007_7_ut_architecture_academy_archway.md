@@ -1,6 +1,7 @@
 ---
 category: gallery
-medium: drawing
+mediums:
+  - colored-pencil
 topics:
   - architecture
 card-class: gallery-image
