@@ -55,7 +55,14 @@ defaults:
               - "Nature"
               - "Fantasy"
               - "Society"
-
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      item-sorts:
+          - "Date"
+          - "Title"
+          - "Author"
 
 # Build settings
 markdown: kramdown

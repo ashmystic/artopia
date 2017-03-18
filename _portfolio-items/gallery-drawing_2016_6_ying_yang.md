@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - spirituality
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2016_6_ying_yang.png

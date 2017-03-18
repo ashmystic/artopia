@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - spirituality
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2016_6_elusive_enlightenment_octopus_mirror_resized.jpg

@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - spirituality
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2016_10_my_temple.png

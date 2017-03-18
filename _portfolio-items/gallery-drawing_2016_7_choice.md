@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - spirituality
+  - nature
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2016_7_choice.png

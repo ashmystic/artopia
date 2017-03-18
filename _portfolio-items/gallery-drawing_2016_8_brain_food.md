@@ -1,6 +1,10 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - nature
+  - society
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2016_8_brain_food.png

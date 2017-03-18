@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - nature
 card-class: gallery-image
 image: assets/images/categories/gallery/polygons_color-alpha-cropped.png
 title: Polygons

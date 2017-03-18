@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - nature
 card-class: gallery-image
 image: assets/images/categories/gallery/fractal_tree_pentagon_color.png
 title: Pentagon

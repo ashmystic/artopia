@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - architecture
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2012_11_meddle_building_drawing_steps.jpg

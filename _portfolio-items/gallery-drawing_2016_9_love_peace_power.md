@@ -1,6 +1,10 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - spirituality
+  - architecture
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2016_9_love_peace_power.png

@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - spirituality
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2016_6_think_and_feel_before_you_act.png

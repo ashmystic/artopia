@@ -7,4 +7,16 @@ subtitle: Sketches, drawings and paintings
 item-category: gallery
 header-image: gallery_interior_color.png
 layout: category-page
+item-filters:
+    -
+      name: "Topic"
+      filter-list:
+        - "Spirituality"
+        - "Nature"
+        - "Fantasy"
+        - "Architecture"
+        - "Society"
+item-sorts:
+    - "Date"
+    - "Title"
 ---

@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - architecture
+  - fantasy
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2009_ash_floating_platform.png

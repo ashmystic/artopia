@@ -7,4 +7,9 @@ subtitle: Digital Experiments
 item-category: stargate
 layout: category-page
 header-image: fractal-tree-polygons-2.png
+item-filters:
+  -
+item-sorts:
+  - "Date"
+  - "Title"
 ---

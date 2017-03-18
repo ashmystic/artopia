@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2017_2_magnetic_melon_monkey_madness.jpg

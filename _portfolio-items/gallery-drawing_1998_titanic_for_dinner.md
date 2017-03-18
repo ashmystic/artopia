@@ -1,6 +1,8 @@
 ---
 category: gallery
-medium: drawing
+medium: colored-pencil
+topics:
+  - fantasy
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_1998_titanic_for_dinner.jpg

@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - society
+  - nature
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2016_6_the_sun_sets_on_reality_escaping_zombieland.png

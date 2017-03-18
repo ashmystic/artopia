@@ -20,4 +20,8 @@ item-filters:
         - "Website"
         - "Book"
         - "Quote"
+item-sorts:
+    - "Date"
+    - "Title"
+    - "Author"
 ---

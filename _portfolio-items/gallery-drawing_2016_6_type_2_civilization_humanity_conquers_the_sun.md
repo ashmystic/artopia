@@ -1,6 +1,10 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - nature
+  - society
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2016_6_type_2_civilization_humanity_conquers_the_sun.png

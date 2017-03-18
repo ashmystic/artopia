@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - nature
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2016_10_autumn_sketches.png

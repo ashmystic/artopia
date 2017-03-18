@@ -1,6 +1,8 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - architecture
 card-class: gallery-image
 text:
 image: assets/images/categories/gallery/drawing_2007_7_ut_architecture_academy_archway.jpg

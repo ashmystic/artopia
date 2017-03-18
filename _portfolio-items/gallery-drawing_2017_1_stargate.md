@@ -1,6 +1,9 @@
 ---
 category: gallery
 medium: drawing
+topics:
+  - fantasy
+  - spirituality
 card-class: gallery-image
 text: collection-test
 image: assets/images/categories/gallery/drawing_2017_1_stargate.jpg
