@@ -7,4 +7,22 @@ subtitle: Stories, reflections and posts
 item-category: library
 header-image: akashic_library_interior_color.jpg
 layout: category-page
+item-filters:
+    -
+      name: "Medium"
+      filter-list:
+        - "Post"
+        - "Poem"
+        - "Story"
+    -
+      name: "Topic"
+      filter-list:
+        - "Spirituality"
+        - "Nature"
+        - "Fantasy"
+        - "Technology"
+        - "Society"
+item-sorts:
+    - "Date"
+    - "Title"
 ---

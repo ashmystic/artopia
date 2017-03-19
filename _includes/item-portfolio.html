@@ -91,14 +91,13 @@
                   </div>
                   <div class="author">{{ item.author }}</div>
                   <!-- <div class="date">{{ item.date | date_to_long_string }}</div> -->
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
                   <hr>
                   <div class="text">{{ item.text }}</div>
                 {% when 'work-uncited' %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
                 </a>
-                  <div class="medium">{{ item.medium }}</div>
                   <img class="image" src="{{ item.image }}"></img>
                   <div class="title">
                       <h4><b>{{ item.title }}</b></h4>
@@ -106,8 +105,10 @@
                   <div class="author"></div>
                   <div class="date">{{ item.date }}</div>
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
+                  <div class="medium">{{ item.medium }}</div>
+                  <!-- <div class="medium-display"><h5>{{ item.medium | capitalize }}</h5></div> -->
                   <div class="text">{{ item.text }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
                 {% else %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
@@ -121,7 +122,7 @@
                   <div class="text">{{ item.text }}</div>
                   <div class="date">{{ item.date }}</div>
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
-                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.medium }}</button></a>
+                  <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
               {% endcase %}
               </div>
             {% endfor %}
