@@ -1,6 +1,7 @@
 ---
 category: sky-lounge
-medium: website
+mediums:
+  - website
 card-class: work-cited
 image: assets/images/categories/sky-lounge/permaculture_ethics.gif
 title: Permaculture Principles

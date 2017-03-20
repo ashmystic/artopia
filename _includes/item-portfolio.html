@@ -70,16 +70,29 @@
                   <div class="date">{{ item.date }}</div>
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
                 {% when 'quote-cited' %}
-                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
-                  View in {{ item.category | capitalize | replace: '-', ' ' }}
-                </a>
+                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    View in {{ item.category | capitalize | replace: '-', ' ' }}
+                  </a>
                   <div class="medium">{{ item.medium }}</div>
-                  <img class="image" src="{{ item.image }}"></img>
-                  <div class="title"></div>
-                  <div class="author">{{ item.author }}</div>
+                  <div class="title">{{ item.title }}</div>
+                  <div class="profile">
+                    <img class="image" src="{{ item.image }}"></img>
+                    <div class="author">{{ item.author }}</div>
+                  </div>
                   <div class="date">{{ item.date }}</div>
                   <div class="text">{{ item.text }}</div>
                   <a class="link" href="" target="_blank"></a>
+                {% when 'quote-uncited' %}
+                    <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                      View in {{ item.category | capitalize | replace: '-', ' ' }}
+                    </a>
+                    <div class="medium">{{ item.medium }}</div>
+                    <img class="image" src=""></img>
+                    <div class="title">{{ item.title }}</div>
+                    <div class="author"></div>
+                    <div class="date">{{ item.date }}</div>
+                    <div class="text">{{ item.text }}</div>
+                    <a class="link" href="" target="_blank"></a>
                 {% when 'work-cited' %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}

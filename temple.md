@@ -7,4 +7,16 @@ subtitle: Bits of insight and wisdom
 item-category: temple
 header-image: temple_interior_color.png
 layout: category-page
+item-filters:
+    -
+      name: "Topic"
+      filter-list:
+        - "Spirituality"
+        - "Self Improvement"
+        - "Nature"
+        - "Fantasy"
+        - "Society"
+item-sorts:
+    - "Date"
+    - "Title"
 ---

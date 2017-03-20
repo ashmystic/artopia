@@ -4,9 +4,9 @@ mediums:
   - quote
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/albert_einstein.jpg
-title: Coincidences
+title: True Peace
 author: Albert Einstein
-date: 2017-03-12
-text: Coincidences are God's way of staying anonymous.
+date: 2016-4-2
+text: Peace cannot be kept by force; it can only be achieved by understanding.
 link:
 ---

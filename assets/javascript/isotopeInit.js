@@ -7,7 +7,7 @@ $(function() {
     This should be replaced with https://github.com/desandro/imagesloaded  */
     setTimeout(function () {
       $('#filters .show-all').click();
-    }, 500);
+    }, 1000);
 
 
 });

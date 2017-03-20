@@ -186,28 +186,39 @@ div.new-items .grid-item .category:hover {
 }
 
 
-/* Quote-cited */
+/*  */
 
 .grid-item.quote-cited {
     /*padding-top: 15px;*/
 }
 
-.grid-item.quote-cited .image {
-    width: 120px;
+.grid-item.quote-cited .profile {
+    /*width: 120px;*/
     float: left;
-    margin: 15px 5px 5px;
+    margin: 0px 20px 10px 5px;
+
+}
+.grid-item.quote-cited .image {
+    /*width: 120px;*/
+    height: 100px;
+    /*float: left;*/
+    /*margin: 10px 20px 10px 5px;*/
     /*position: absolute;
   left: 10px;
   bottom: 20px;*/
 }
 
 .grid-item.quote-cited .author {
-    position: absolute;
-    left: 7px;
-    /*top: 110px;*/
-    top: 120px;
+
     text-shadow: 1px 1px #333;
-    background-color: hsla(0, 0%, 0%, 0.3);
+    /*background-color: hsla(0, 0%, 0%, 0.3);*/
+    max-width: 100px;
+}
+
+.grid-item.quote-cited .title {
+    margin: 10px 10px;
+    font-size: 1.5em;
+    text-align: right;
 }
 
 .grid-item.quote-cited .text {
@@ -216,7 +227,36 @@ div.new-items .grid-item .category:hover {
   top: 15px;*/
     /*padding-left: 10px;*/
     margin: 10px 10px;
-    font-size: 1.7em;
+    /*padding-left: 10px;*/
+    font-size: 1.2em;
+    text-align: right;
+}
+
+/* Quote-uncited */
+
+
+.grid-item.quote-uncited .title {
+    margin: 10px 10px;
+    font-size: 1.3em;
+}
+.grid-item.quote-uncited .text {
+    /*position: absolute;
+  left: 10px;
+  top: 15px;*/
+    /*padding-left: 10px;*/
+    margin: 10px;
+    font-size: 1.2em;
+}
+.grid-item.quote-uncited .text:first-letter {
+  color: #903;
+  float: left;
+  /*font-family: Georgia;*/
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
 
 

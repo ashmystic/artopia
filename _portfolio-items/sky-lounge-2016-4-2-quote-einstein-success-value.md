@@ -4,9 +4,9 @@ mediums:
   - quote
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/albert_einstein.jpg
-title: Coincidences
+title: Success Vs. Value
 author: Albert Einstein
-date: 2017-03-12
-text: Coincidences are God's way of staying anonymous.
+date: 2016-4-2
+text: Try not to become a person of success, but rather try to become a person of value.
 link:
 ---
