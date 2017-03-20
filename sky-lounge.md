@@ -7,4 +7,23 @@ subtitle: Curated inspiration
 item-category: sky-lounge
 header-image: sky_lounge_interior_color.jpg
 layout: category-page
+item-filters:
+    -
+      name: "Medium"
+      filter-list:
+        - "Book"
+        - "Quote"
+        - "Song"
+        - "Website"
+    -
+      name: "Topic"
+      filter-list:
+        - "Spirituality"
+        - "Self Improvement"
+        - "Nature"
+        - "Fantasy"
+        - "Society"
+item-sorts:
+    - "Date"
+    - "Title"
 ---

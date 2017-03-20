@@ -13,15 +13,6 @@ item-filters:
       - "Library"
       - "Laboratory"
       - "Sky Lounge"
-  -
-    name: "Topic"
-    filter-list:
-      - "Spirituality"
-      - "Nature"
-      - "Fantasy"
-      - "Architecture"
-      - "Technology"
-      - "Society"
 item-sorts:
     - "Date"
     - "Title"

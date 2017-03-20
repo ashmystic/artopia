@@ -2,6 +2,10 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - spirituality
+  - self-improvement
+  - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/kim_george.jpg
 title: True Freedom

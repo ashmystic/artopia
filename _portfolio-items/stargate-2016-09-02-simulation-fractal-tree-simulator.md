@@ -1,6 +1,7 @@
 ---
 category: stargate
-medium: simulation
+mediums:
+  - simulation
 card-class: work-uncited
 image: assets/images/categories/stargate/fractal-tree-bloom.png
 title: Fractal Tree Generator

@@ -2,6 +2,9 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - self-improvement
+  - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/cassius_keyser.jpg
 title: Absolute Certainty

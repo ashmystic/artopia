@@ -1,6 +1,7 @@
 ---
 category: stargate
-medium: simulation
+mediums:
+  - simulation
 card-class: work-uncited
 image: assets/images/categories/stargate/times_table_animation.jpg
 title: Times Table Geometry Simulator

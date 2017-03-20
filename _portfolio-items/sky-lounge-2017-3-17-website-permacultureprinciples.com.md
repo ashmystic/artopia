@@ -2,6 +2,11 @@
 category: sky-lounge
 mediums:
   - website
+topics:
+  - spirituality
+  - self-improvement
+  - nature
+  - society
 card-class: work-cited
 image: assets/images/categories/sky-lounge/permaculture_ethics.gif
 title: Permaculture Principles

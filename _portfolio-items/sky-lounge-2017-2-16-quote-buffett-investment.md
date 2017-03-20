@@ -2,6 +2,10 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - self-improvement
+  - nature
+  - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/warren_buffett.jpg
 title: Investment

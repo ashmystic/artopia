@@ -2,6 +2,8 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/tyler_durden.jpg
 title: A Systemic Problem

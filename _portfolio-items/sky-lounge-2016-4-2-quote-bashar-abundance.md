@@ -2,6 +2,10 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - spirituality
+  - self-improvement
+  - nature
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/darryl_anka.jpg
 title: Abundance

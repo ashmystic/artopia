@@ -2,6 +2,8 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - self-improvement
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/hunter_thompson.jpg
 title: Worthiness

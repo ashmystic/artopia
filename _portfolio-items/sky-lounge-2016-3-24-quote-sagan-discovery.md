@@ -2,6 +2,9 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - self-improvement
+  - nature
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/carl_sagan.jpg
 title: Discovery

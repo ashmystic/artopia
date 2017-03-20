@@ -2,6 +2,9 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - spirituality
+  - self-improvement
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/daniel_dennett.jpg
 title: Happiness

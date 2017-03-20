@@ -2,6 +2,11 @@
 category: sky-lounge
 mediums:
   - book
+topics:
+  - spirituality
+  - self-improvement
+  - nature
+  - society
 card-class: work-cited
 image: assets/images/categories/sky-lounge/book_brief_history_of_everything.jpg
 title: A Brief History of Everything

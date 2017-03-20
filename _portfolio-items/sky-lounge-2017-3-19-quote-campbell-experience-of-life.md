@@ -2,6 +2,8 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - spirituality
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/joseph_campbell.jpg
 title: Experience of Life

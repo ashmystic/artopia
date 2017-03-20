@@ -2,6 +2,9 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - self-improvement
+  - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/albert_einstein.jpg
 title: Success Vs. Value

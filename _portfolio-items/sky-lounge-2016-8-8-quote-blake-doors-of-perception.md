@@ -2,6 +2,9 @@
 category: sky-lounge
 mediums:
   - quote
+topics:
+  - spirituality
+  - nature
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/william_blake.jpg
 title: Doors of Perception
