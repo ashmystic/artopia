@@ -13,5 +13,5 @@ title: A Brief History of Everything
 author: Ken Wilber
 date: 2017-03-12
 text: In a breathtaking trip from the Big Bang to the Postmodern world we inhabit, Ken Wilber examines the universe and our place in it, and comes up with an accessible and entertaining account of how it all fits together.
-link: https://books.google.com/books/about/A_Brief_History_of_Everything.html?id=c9shMX7HLY0C
+link: http://www.goodreads.com/book/show/177132.A_Brief_History_of_Everything
 ---

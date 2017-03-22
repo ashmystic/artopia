@@ -92,6 +92,7 @@
                     <div class="author"></div>
                     <div class="date">{{ item.date }}</div>
                     <div class="text">{{ item.text }}</div>
+                    <div class="text">{{ item.content }}</div>
                     <a class="link" href="" target="_blank"></a>
                 {% when 'work-cited' %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
@@ -120,7 +121,7 @@
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
                   <div class="medium">{{ item.medium }}</div>
                   <!-- <div class="medium-display"><h5>{{ item.medium | capitalize }}</h5></div> -->
-                  <div class="text">{{ item.text }}</div>
+                  <div class="text">"{{ item.text }}"</div>
                   <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
                 {% else %}
                 <a class="category" href="{{ site.baseurl }}/{{ item.category }}">

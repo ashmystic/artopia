@@ -238,6 +238,7 @@ div.new-items .grid-item .category:hover {
 .grid-item.quote-uncited .title {
     margin: 10px 10px;
     font-size: 1.3em;
+    /*display: none;*/
 }
 .grid-item.quote-uncited .text {
     /*position: absolute;
@@ -250,7 +251,6 @@ div.new-items .grid-item .category:hover {
 .grid-item.quote-uncited .text:first-letter {
   color: #903;
   float: left;
-  /*font-family: Georgia;*/
   font-family: 'Inknut Antiqua', serif;
   font-size: 75px;
   line-height: 60px;

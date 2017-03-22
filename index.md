@@ -2,7 +2,7 @@
 layout: home
 title: Home
 item-category: new-items
-number-display-items: 20
+number-display-items: 30
 item-filters:
   -
     name: "Category"
