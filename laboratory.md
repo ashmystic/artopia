@@ -7,4 +7,22 @@ subtitle: Project ideas and visions
 item-category: laboratory
 header-image: laboratory_interior_color.jpg
 layout: category-page
+item-filters:
+    -
+      name: "Medium"
+      filter-list:
+        - "Video"
+        - "Application"
+    -
+      name: "Topic"
+      filter-list:
+        - "Spirituality"
+        - "Self Improvement"
+        - "Nature"
+        - "Fantasy"
+        - "Society"
+item-sorts:
+    - "Date"
+    - "Title"
+
 ---
