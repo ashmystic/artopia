@@ -3,12 +3,13 @@ category: temple
 topics:
   - spirituality
   - self-improvement
+  - society
 card-class: quote-uncited
 image:
-title: Self as Standard
+title: It is Time
 author:
-date: 2016-3-3
-text:  
+date: 20164-3
+text:
 link:
 ---
-Set yourself as a standard for what you expect in others.
+We all saw the darkness. Now is time for light.

@@ -1,7 +1,7 @@
 ---
 category: temple
 topics:
-  - spiritually
+  - spirituality
 card-class: quote-uncited
 image:
 title: Foreign Language

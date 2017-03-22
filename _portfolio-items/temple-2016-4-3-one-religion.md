@@ -5,10 +5,10 @@ topics:
   - self-improvement
 card-class: quote-uncited
 image:
-title: Actions Over Belief
+title: One Religion
 author:
-date: 2016-4-2
+date: 2016-4-3
 text:  
 link:
 ---
-I don't care what your beliefs are. What do your actions tell about you?
+If there is one religion to believe without question, let it be that of life. And love.

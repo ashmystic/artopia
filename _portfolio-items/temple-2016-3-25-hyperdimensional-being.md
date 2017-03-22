@@ -5,10 +5,10 @@ topics:
   - self-improvement
 card-class: quote-uncited
 image:
-title: Actions Over Belief
+title: Hyperdimensional Being
 author:
-date: 2016-4-2
+date: 2016-3-25
 text:  
 link:
 ---
-I don't care what your beliefs are. What do your actions tell about you?
+I am a hyperdimensional being operating a 3-dimensional machine.

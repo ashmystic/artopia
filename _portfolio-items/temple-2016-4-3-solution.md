@@ -1,7 +1,7 @@
 ---
 category: temple
 topics:
-  - spiritually
+  - spirituality
   - self-improvement
   - society
 card-class: quote-uncited

@@ -5,10 +5,10 @@ topics:
   - self-improvement
 card-class: quote-uncited
 image:
-title: Self as Standard
+title: Beginnings
 author:
-date: 2016-3-3
-text:  
+date: 2016-3-6
+text:
 link:
 ---
-Set yourself as a standard for what you expect in others.
+At every end is a new beginning.

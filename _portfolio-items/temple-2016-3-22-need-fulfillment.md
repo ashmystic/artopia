@@ -1,13 +1,13 @@
 ---
 category: temple
 topics:
-  - spiritually
+  - spirituality
   - self-improvement
 card-class: quote-uncited
 image:
 title: Need Fulfillment
 author:
-date: 2016-3-11
+date: 2016-3-22
 text:  
 link:
 ---

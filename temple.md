@@ -7,6 +7,7 @@ subtitle: Bits of insight and wisdom
 item-category: temple
 header-image: temple_interior_color.png
 layout: category-page
+number-display-items: 100
 item-filters:
     -
       name: "Topic"

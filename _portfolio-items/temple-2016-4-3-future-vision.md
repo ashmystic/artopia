@@ -1,7 +1,7 @@
 ---
 category: temple
 topics:
-  - spiritually
+  - spirituality
   - society
 card-class: quote-uncited
 image:

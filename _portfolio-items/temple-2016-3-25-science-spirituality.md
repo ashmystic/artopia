@@ -1,13 +1,13 @@
 ---
 category: temple
 topics:
-  - spiritually
+  - spirituality
   - society
 card-class: quote-uncited
 image:
 title: Science and Spirituality
 author:
-date: 2016-4-3
+date: 2016-3-25
 text:
 link:
 ---

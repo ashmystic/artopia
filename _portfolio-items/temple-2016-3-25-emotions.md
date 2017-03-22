@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Emotions
 author:
-date: 2016-3-22
+date: 2016-3-25
 text:  
 link:
 ---

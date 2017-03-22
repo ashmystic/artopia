@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Trust
 author:
-date: 2016-4-3
+date: 2016-3-26
 text:
 link:
 ---
