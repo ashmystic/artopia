@@ -12,4 +12,4 @@ date: 2016-4-2
 text:  
 link:
 ---
-I believe the world can be saved through open-minded holistic design.
+I believe the world can be saved through open-minded holistic design, and genuine authentic love.
