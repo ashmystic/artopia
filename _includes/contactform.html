@@ -7,8 +7,8 @@
 <div class="container-fluid contactform">
     <div class="container ">
         <h3>Send me a message!</h3>
-        <form>
-            <div class="form-group" method="POST" action="http://formspree.io/{{ site.contactform.email }}">
+        <form method="POST" action="http://formspree.io/{{ site.contactform.email }}">
+              <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Your email">
                 <br>
                 <input type="name" class="form-control" name="name" placeholder="Your name">
