@@ -3,9 +3,19 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Garden
-subtitle: of my mind
+subtitle: "of my mind"
 item-category: garden
 header-image: self_portrait_color.jpg
 layout: category-page
 show-contactform: true
+item-filters:
+    -
+      name: "Medium"
+      filter-list:
+      - "Account"
+      - "Skill"
+      - "Favorite"
+item-sorts:
+    - "Date"
+    - "Title"
 ---
