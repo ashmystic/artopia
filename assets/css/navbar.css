@@ -19,7 +19,11 @@
 
 .license {
   text-align:center;
+  vertical-align: middle;
+  background-color: #222;
+    color: #9d9d9d;
 }
+
 .navbutton {
 }
 .navbutton:hover {

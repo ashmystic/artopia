@@ -8,7 +8,7 @@ topics:
   - nature
   - society
 card-class: work-cited
-image: assets/images/categories/sky-lounge/permaculture_ethics.gif
+image: assets/images/categories/sky-lounge/permaculture_ethics.jpg
 title: Permaculture Principles
 author:
 date: 2017-03-17

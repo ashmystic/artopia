@@ -7,6 +7,7 @@ subtitle: Curated inspiration
 item-category: sky-lounge
 header-image: sky_lounge_interior_color.jpg
 layout: category-page
+number-display-items: 100
 item-filters:
     -
       name: "Medium"

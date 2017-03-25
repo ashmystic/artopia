@@ -7,7 +7,7 @@ topics:
   - nature
   - technology
 card-class: work-uncited
-image: assets/images/categories/library/holonic_consciousness.png
+image: assets/images/categories/library/holonic_consciousness.jpg
 title: Holonic/Fractal Theory of Consciousness
 author:
 date: 2016-04-14

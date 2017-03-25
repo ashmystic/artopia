@@ -6,7 +6,7 @@ topics:
   - spirituality
   - nature
 card-class: work-uncited
-image: assets/images/categories/library/waterfall.png
+image: assets/images/categories/library/waterfall.jpg
 title: Meditation Mantra
 author:
 date: 2015-07-28
