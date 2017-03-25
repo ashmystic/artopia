@@ -6,6 +6,12 @@
   <title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <!-- <meta http-equiv="last-modified" content="Sun, 10 Mar 2017 14:00:46 GMT " /> -->
+  <meta http-equiv="last-modified" content="{{ site.time | date_to_rfc822 }}" />
+  <meta http-equiv="cache-control" content="Private" />
+  <meta http-equiv="Expires" content="6000" />
+  <!-- <meta http-equiv="EXPIRES" content="Mon, 17 Sep 2012 12:00:00 GMT"> -->
+
   <link rel="shortcut icon" href="favicon.ico" />
   <!-- <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -17,23 +23,15 @@
 
 <!-- ### -->
 
-  <!-- <title>Artopia > Home</title> -->
-  <!-- Flickity - image gallery with selected style -->
-  <!-- <meta charset="utf-8"> -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <!-- Include jQuery -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script src="assets/javascript/jquery.min.js"></script>
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <script src="assets/javascript/bootstrap.min.js"></script>
   <!-- Include Bootstrap -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Include Flickity -->
   <script src="assets/javascript/flickity.pkgd.min.js"></script>
   <link rel="stylesheet" href="assets/css/flickity.min.css">
   <!-- Include Isotope -->
-  <!-- <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script> -->
   <script src="assets/javascript/isotope.pkgd.min.js"></script>
   <!-- Include fonts -->
   <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
