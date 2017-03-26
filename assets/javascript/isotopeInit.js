@@ -76,6 +76,9 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
             sortBy: getSortByValue(sortContainer),
             sortAscending: isSortAscending(sortOrderContainer)
         });
+
+        // Check for no results
+        checkResults($grid);
     });
 
 
