@@ -52,14 +52,14 @@
                     View in {{ item.category | capitalize | replace: '-', ' ' }}
                   </a>
                   <div class="medium">{{ item.medium }}</div>
-                  <a class="image image-preview" href="#img-{{ item.title | replace: ' ', '-' }}">
+                  <a class="image image-preview" href="#img-{{ item.title | escape | replace: ' ', '-' }}">
                       <img src="assets/images/categories/gallery/thumbnail/{{ item.image }}" class="">
                       <div class="image-preview__icon">
                           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                       </div>
                   </a>
                   <!-- lightbox container hidden with CSS -->
-                  <a href="#_" class="lightbox" id="img-{{ item.title | replace: ' ', '-' }}">
+                  <a href="#_" class="lightbox" id="img-{{ item.title |  escape | replace: ' ', '-' }}">
                       <img data-full-image="assets/images/categories/gallery/{{ item.image }}" src="">
                   </a>
                   <div class="title">
