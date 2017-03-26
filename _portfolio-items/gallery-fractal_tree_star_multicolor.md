@@ -7,7 +7,7 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: assets/images/categories/gallery/fractal_tree_star_multicolor-border.png
+image: fractal_tree_star_multicolor-border.png
 title: Rainbow Star
 author:
 date: 2017-3-25

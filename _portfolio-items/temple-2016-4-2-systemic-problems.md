@@ -2,6 +2,7 @@
 category: temple
 topics:
   - self-improvement
+  - empathy
   - society
 card-class: quote-uncited
 image:

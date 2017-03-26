@@ -1,6 +1,8 @@
 ---
 category: temple
-medium: insight
+topics:
+  - self-improvement
+  - society
 card-class: quote-uncited
 image:
 title: Strategy

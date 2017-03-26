@@ -7,9 +7,9 @@ topics:
   - society
 card-class: quote-cited
 image: assets/images/categories/sky-lounge/rb_fuller.jpg
-title: Interdisciplinary Skills
+title: Build a New Model
 author: Buckminster Fuller
-date: 2017-4-2
-text: A designer is an emerging synthesis of artist, scientist, technician, inventor, engineer, objective economist, and evolutionary strategist
+date: 2016-4-2
+text: You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.
 link:
 ---

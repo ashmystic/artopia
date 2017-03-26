@@ -2,6 +2,7 @@
 category: temple
 topics:
   - spirituality
+  - empathy
   - society
 card-class: quote-uncited
 image:

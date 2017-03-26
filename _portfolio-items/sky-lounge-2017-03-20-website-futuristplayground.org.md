@@ -6,7 +6,7 @@ topics:
   - nature
   - society
 card-class: work-cited
-image: http://futuristplayground.org/wp-content/uploads/2016/01/fp_logo_name_sm.png
+image: assets/images/categories/sky-lounge/fp_logo.png
 title: Futurist Playground
 author:
 date: 2017-03-20

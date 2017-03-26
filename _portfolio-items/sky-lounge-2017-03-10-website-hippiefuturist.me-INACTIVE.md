@@ -1,5 +1,5 @@
 ---
-category: sky-lounge
+category: sky-lounge-INACTIVE
 mediums:
   - website
 topics:
@@ -13,6 +13,6 @@ image: http://www.hippiefuturist.me/wp-content/uploads/2016/06/self-portrait-e14
 title: HippieFuturist.me
 author:
 date: 2017-03-10
-text: This is my personal website containing random projects.
+text: This is my previous personal website containing random projects.
 link: http://www.hippiefuturist.me
 ---

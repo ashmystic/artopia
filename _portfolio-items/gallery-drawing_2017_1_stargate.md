@@ -8,7 +8,7 @@ topics:
   - spirituality
 card-class: gallery-image
 text: collection-test
-image: assets/images/categories/gallery/drawing_2017_1_stargate.jpg
+image: drawing_2017_1_stargate.jpg
 title: Stargate
 author:
 date: 2017-1-1

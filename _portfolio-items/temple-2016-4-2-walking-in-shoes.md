@@ -1,7 +1,7 @@
 ---
 category: temple
 topics:
-  - spirituality
+  - empathy
   - self-improvement
 card-class: quote-uncited
 image:

@@ -6,7 +6,7 @@ topics:
   - nature
   - society
 card-class: work-cited
-image: http://auravana.com/images/image-contribution-farid-yagubov-city-futuristic-circular-city.jpg
+image: assets/images/categories/sky-lounge/graphic_auravana.jpg
 title: The Auravana Project
 author:
 date: 2017-03-20

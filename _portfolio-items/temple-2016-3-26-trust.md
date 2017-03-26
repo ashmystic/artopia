@@ -1,6 +1,7 @@
 ---
 category: temple
 topics:
+  - empathy
   - society
 card-class: quote-uncited
 image:

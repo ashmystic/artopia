@@ -1,6 +1,9 @@
 ---
 category: temple
-medium: insight
+topics:
+  - spirituality
+  - self-improvement
+  - empathy
 card-class: quote-uncited
 image:
 title: The Present Moment

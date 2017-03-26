@@ -14,6 +14,7 @@ item-filters:
       filter-list:
         - "Spirituality"
         - "Self Improvement"
+        - "Empathy"
         - "Nature"
         - "Society"
 item-sorts:

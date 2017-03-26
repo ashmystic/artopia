@@ -7,7 +7,7 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: assets/images/categories/gallery/tree_bloom-color-cropped-border.png
+image: tree_bloom-color-cropped-border.png
 title: Bloom
 author:
 date: 2017-3-16

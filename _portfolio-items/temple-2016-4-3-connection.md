@@ -2,6 +2,7 @@
 category: temple
 topics:
   - spirituality
+  - empathy
 card-class: quote-uncited
 image:
 title: Connection

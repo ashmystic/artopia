@@ -7,7 +7,7 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: assets/images/categories/gallery/fractal-tree-flower-of-life-cropped-border.png
+image: fractal-tree-flower-of-life-cropped-border.png
 title: Flower of Life
 author:
 date: 2017-3-25

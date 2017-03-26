@@ -5,7 +5,7 @@ topics:
   - society
 card-class: quote-uncited
 image:
-title: Anti-social
+title: Feeling Anti-social
 author:
 date: 2016-4-3
 text:

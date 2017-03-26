@@ -3,6 +3,7 @@ category: temple
 topics:
   - spirituality
   - self-improvement
+  - empathy
   - society
 card-class: quote-uncited
 image:

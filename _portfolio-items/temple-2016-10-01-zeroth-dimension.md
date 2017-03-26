@@ -1,6 +1,8 @@
 ---
 category: temple
-medium: insight
+topics:
+  - spirituality
+  - nature
 card-class: quote-uncited
 image:
 title: The Zeroth Dimension

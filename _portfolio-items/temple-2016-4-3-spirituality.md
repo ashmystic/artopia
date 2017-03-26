@@ -2,6 +2,7 @@
 category: temple
 topics:
   - spirituality
+  - nature
 card-class: quote-uncited
 image:
 title: Spirituality

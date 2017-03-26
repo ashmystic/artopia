@@ -22,7 +22,6 @@ item-filters:
         - "Spirituality"
         - "Self Improvement"
         - "Nature"
-        - "Fantasy"
         - "Society"
 item-sorts:
     - "Date"

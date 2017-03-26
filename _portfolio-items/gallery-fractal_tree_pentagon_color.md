@@ -7,7 +7,7 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: assets/images/categories/gallery/fractal_tree_pentagon_color.png
+image: fractal_tree_pentagon_color.png
 title: Pentagon Portal
 author:
 date: 2017-3-16

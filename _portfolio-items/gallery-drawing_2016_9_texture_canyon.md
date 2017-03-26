@@ -7,7 +7,7 @@ topics:
   - fantasy
 card-class: gallery-image
 text:
-image: assets/images/categories/gallery/drawing_2016_9_texture_canyon.jpg
+image: drawing_2016_9_texture_canyon.jpg
 title: Texture Canyon
 author:
 date: 2016-9-01
