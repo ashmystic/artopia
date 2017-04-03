@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Gallery
 subtitle: Sketches, drawings and paintings
+license-items: All art on this site
 item-category: gallery
 header-image: gallery_interior_color.png
 layout: category-page

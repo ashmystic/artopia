@@ -280,7 +280,9 @@ div.new-items .grid-item .category:hover {
     /** Pad the lightbox image */
     max-width: 95%;
     max-height: 95%;
-    margin-top: 1%;
+    margin-top: 2%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .lightbox:target {
