@@ -10,7 +10,14 @@ function galleryInit(item) {
     $(item).click(function(evt) {
       var id = $(this).attr('href');
       var image = $(id).find('img');
-      image.attr('src', image.data('full-image'));
+      var fullImageURL = image.data('full-image');
+
+      var loadedImage = new Image();
+      loadedImage.src = fullImageURL;
+
+      loadedImage.onload = function(){
+          image.replaceWith(loadedImage);
+      }
    });
 
 };
