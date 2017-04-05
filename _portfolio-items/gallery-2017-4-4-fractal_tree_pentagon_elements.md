@@ -7,10 +7,10 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: tree_bloom-color-cropped-border.png
-title: Bloom
+image: fractal_tree_pentagon_elements.png
+title: Pentagon Portal (The Elements)
 author:
-date: 2017-3-16
+date: 2017-4-4
 text: Algorithmic drawing and color
 link:
 ---

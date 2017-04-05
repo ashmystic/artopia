@@ -7,8 +7,8 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: fractal_tree_pentagon_color.png
-title: Pentagon Portal
+image: fractal_heart.png
+title: Fractal Heart
 author:
 date: 2017-3-16
 text: Algorithmic drawing and color
