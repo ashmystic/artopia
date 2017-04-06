@@ -15,6 +15,17 @@ layout: default
                 </div>
             </div>
         </div>
+    {% if page.content != '' %}
+    <div class="container-fluid content-section">
+        <div class="container">
+          {{ content }}
+        </div>
+    </div>
+    {% endif %}
+
     {% include item-portfolio.html %}
 
+    {% if page.show-contactform %}
+      {% include contactform.html %}
+    {% endif %}
 </div>

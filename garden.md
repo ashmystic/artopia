@@ -19,3 +19,11 @@ item-sorts:
     - "Date"
     - "Title"
 ---
+### Thank you for visiting Artopia!
+
+This site is a public personal journal of my interpretation and appreciation for life.
+Through it I wish to share insights, inspiration and love.
+
+What more is there to say? :)
+
+Follow me on one of my accounts below or <a class="link" href="#contactform"><button class="button">email</button></a> me to get in touch.
