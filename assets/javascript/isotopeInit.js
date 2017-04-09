@@ -12,7 +12,6 @@ $(function() {
 
 });
 
-
 function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortContainer, sortOrderContainer) {
 
     // filter functions
@@ -25,13 +24,15 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
     var $grid = $(gridContainer).isotope({
         itemSelector: gridItemContainer,
         layoutMode: 'masonry',
+        sortBy: getSortByValue(sortContainer),
+        sortAscending: isSortAscending(sortOrderContainer),
         getSortData: {
             date: '.date',
             title: '.title',
             author: '.author'
             // category: '[data-category]'
         },
-        sortAscending: isSortAscending(sortOrderContainer),
+
         filter: function() {
 
             var isMatched = true;
@@ -55,10 +56,10 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
     });
 
     // Initialize sorting
-    $grid.isotope({
-        sortBy: getSortByValue(sortContainer),
-        sortAscending: isSortAscending(sortOrderContainer)
-    });
+    // $grid.isotope({
+    //     sortBy: getSortByValue(sortContainer),
+    //     sortAscending: isSortAscending(sortOrderContainer)
+    // });
 
     // Check for no results
     checkResults($grid);
@@ -80,8 +81,6 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
         // Check for no results
         checkResults($grid);
     });
-
-
 
     // bind sort button click
     $(sortContainer).on('click', 'button', function() {
@@ -110,6 +109,9 @@ function isotopeInit(gridContainer, gridItemContainer, filterContainer, sortCont
         });
     });
 
+    // Hack to trigger sorting on page load
+    $(sortContainer+' button:last-child').click();
+    $(sortContainer+' button:first-child').click();
 };
 
 function isSortAscending(sortOrderContainer) {

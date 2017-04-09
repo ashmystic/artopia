@@ -12,7 +12,6 @@ function daylightInit() {
     var background = $('.item-portfolio.item-portfolio-new-items');
     var d = new Date();
     var n = d.getHours();
-    console.log(n);
     if (n > 19 || n < 6) {
         // If time is after 7PM or before 6AM, apply night theme to carousel
         header.addClass("night-sky");

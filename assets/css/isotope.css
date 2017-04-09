@@ -48,6 +48,7 @@
 .no-results {
   padding: 5px;
   background-color: hsla(360, 100%, 100%, 0.5);
+  display:none; /* Hide initially and show with JS */
 }
 
 
