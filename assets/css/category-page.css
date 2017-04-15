@@ -92,7 +92,6 @@
     background-image: url("../images/textures/skulls.png");
     /*background-color: #381212;*/
     /*background-image: url("../images/textures/soft-wallpaper.png");*/
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .item-portfolio-library {
@@ -101,13 +100,11 @@
     /*background-image: url("../images/textures/pineapple-cut.png");*/
     /*background-image: url("../images/textures/purty-wood.png");*/
     background-image: url("../images/textures/ravenna.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .item-portfolio-sky-lounge {
     background-color: #241401;
     background-image: url("../images/textures/padded-light.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .item-portfolio-temple {
@@ -121,19 +118,16 @@
     /*background-image: url("https://s-media-cache-ak0.pinimg.com/736x/39/8f/f1/398ff1ea3dd54f94b1892a14c5649a2f.jpg");*/
     /*background-image: url("https://freeios7.com/download/freeios7.com_apple_wallpaper_metatron_iphone4.jpg");*/
     /*background-image: url("http://previews.123rf.com/images/styleuneed/styleuneed1507/styleuneed150700183/42835493-wallpaper-flower-of-life-pattern-green-Stock-Photo.jpg");*/
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .item-portfolio-laboratory {
     background-color: #0f1f0c;
     background-image: url("../images/textures/old-mathematics.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .item-portfolio-stargate {
     background-color: #000a08;
     background-image: url("../images/textures/dimension.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .canvas {
@@ -157,4 +151,11 @@
 .item-portfolio-garden {
   background-color: #736622;
   background-image: url("../images/textures/tree-bark.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.item-portfolio-gaia-shrine {
+  /*background-color: #91884c;*/
+  background-color: #2b3152;
+  /*background-image: url("../images/textures/crissxcross.png");*/
+  background-image: url("../images/textures/flowers.png");
+}

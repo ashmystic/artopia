@@ -45,7 +45,7 @@
             <!-- Get the collection -->
 
             {% for item in items limit:page.number-display-items %}
-            <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %}" data-category="general wisdom, society">
+            <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
               {% case item.card-class %}
                 {% when 'gallery-image' %}
                   <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
@@ -53,14 +53,14 @@
                   </a>
                   <div class="medium">{{ item.medium }}</div>
                   <a class="image image-preview" href="#img-{{ item.title | escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
-                      <img src="assets/images/categories/gallery/thumbnail/{{ item.image }}" class="">
+                      <img src="assets/images/categories/{{ item.category }}/thumbnail/{{ item.image }}" class="">
                       <div class="image-preview__icon">
                           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                       </div>
                   </a>
                   <!-- lightbox container hidden with CSS -->
                   <a href="#_" class="lightbox" id="img-{{ item.title |  escape | replace: ' ', '-' | replace: '(', '-' | replace: ')', '-' }}">
-                      <img data-full-image="assets/images/categories/gallery/{{ item.image }}" src="assets/images/loading_spinner.gif">
+                      <img data-full-image="assets/images/categories/{{ item.category }}/{{ item.image }}" src="assets/images/loading_spinner.gif">
                   </a>
                   <div class="title">
                       <h4><b>{{ item.title }}</b></h4>
@@ -69,6 +69,7 @@
                   <div class="text">{{ item.text }}</div>
                   <div class="date">{{ item.date }}</div>
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
+                  <div class="text">{{ item.content }}</div>
                 {% when 'quote-cited' %}
                   <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                     View in {{ item.category | capitalize | replace: '-', ' ' }}

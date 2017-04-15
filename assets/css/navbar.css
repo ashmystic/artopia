@@ -192,8 +192,12 @@
   top: 200px;
   left: 10px;
 }
+.nav-link.gaia-shrine {
+  top: 115px;
+  left: 5px;
+}
 .nav-link.garden {
-  top: 135px;
+  top: 140px;
   left: 65px;
 }
 .nav-link:hover .nav-link__icon
