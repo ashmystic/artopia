@@ -12,6 +12,7 @@ item-filters:
       - "Temple"
       - "Library"
       - "Laboratory"
+      - "Gaia Shrine"
       - "Sky Lounge"
 item-sorts:
     - "Date"
