@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Life/Spirit Lessons
 author:
-date: 2017-2-16
+date: 2017-02-16
 text:
 link:
 ---

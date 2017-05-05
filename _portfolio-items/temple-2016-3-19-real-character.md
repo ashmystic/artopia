@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Real Character
 author:
-date: 2016-3-19
+date: 2016-03-19
 text:
 link:
 ---

@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_3_26_arizona_arcosanti_globemallow.jpg
 title: Globemallow
 author:
-date: 2016-3-26
+date: 2016-03-26
 text: Arcosanti, Arizona
 link:
 ---

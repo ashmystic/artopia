@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Foreign Language
 author:
-date: 2016-4-3
+date: 2016-04-3
 text:  
 link:
 ---

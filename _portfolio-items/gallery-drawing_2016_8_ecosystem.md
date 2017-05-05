@@ -11,7 +11,7 @@ text:
 image: drawing_2016_8_ecosystem.jpg
 title: Ecosystem
 author:
-date: 2016-8-01
+date: 2016-08-01
 text: Pen drawing with digital color
 link:
 ---

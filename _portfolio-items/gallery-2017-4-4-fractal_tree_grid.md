@@ -10,7 +10,7 @@ card-class: gallery-image
 image: fractal_tree_grid.png
 title: The Grid
 author:
-date: 2017-4-4
+date: 2017-04-04
 text: Algorithmic drawing and color
 link:
 ---

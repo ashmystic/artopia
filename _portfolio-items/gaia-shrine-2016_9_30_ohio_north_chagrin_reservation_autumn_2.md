@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_9_30_ohio_north_chagrin_reservation_autumn.jpg
 title: Autumn Fruits
 author:
-date: 2016-9-30
+date: 2016-09-30
 text: Northeast Ohio
 link:
 ---

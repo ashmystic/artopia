@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Are You Questioning?
 author:
-date: 2016-11-7
+date: 2016-11-07
 text:  
 link:
 ---

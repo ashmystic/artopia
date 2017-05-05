@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_9_30_ohio_aurora_leaf.jpg
 title: Technicolor Brillance
 author:
-date: 2016-9-30
+date: 2016-09-30
 text: Northeast Ohio
 link:
 ---

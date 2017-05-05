@@ -9,7 +9,7 @@ card-class: gallery-image
 image: photo_2014_1_31_hawaii_waikoloa_petroglyphs.jpg
 title: Waikoloa Petroglyphs
 author:
-date: 2014-1-31
+date: 2014-01-31
 text: Big Island, Hawaii
 link:
 ---

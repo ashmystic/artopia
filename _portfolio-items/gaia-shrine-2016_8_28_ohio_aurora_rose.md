@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_8_28_ohio_aurora_rose.jpg
 title: Rose Bloom
 author:
-date: 2016-8-28
+date: 2016-08-28
 text: Northeast Ohio
 link:
 ---

@@ -10,7 +10,7 @@ card-class: gallery-image
 image: fractal_tree_rainbow_star.png
 title: Rainbow Star
 author:
-date: 2017-3-25
+date: 2017-03-25
 text: Algorithmic drawing and color
 link:
 ---

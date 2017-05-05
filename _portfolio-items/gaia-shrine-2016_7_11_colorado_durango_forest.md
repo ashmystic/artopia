@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_7_11_colorado_durango_forest.jpg
 title: Pine Forest
 author:
-date: 2016-7-11
+date: 2016-07-11
 text: Durango, Colorado
 link:
 ---

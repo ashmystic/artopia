@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Walking in their Shoes
 author:
-date: 2016-4-2
+date: 2016-04-02
 text:  
 link:
 ---

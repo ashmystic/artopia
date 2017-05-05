@@ -10,7 +10,7 @@ text:
 image: drawing_2016_4_castle_arcology.png
 title: Castle Arcology
 author:
-date: 2016-4-01
+date: 2016-04-01
 text: Pen drawing
 link:
 ---

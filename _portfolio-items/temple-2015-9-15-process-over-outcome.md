@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Process Over Outcome
 author:
-date: 2015-9-15
+date: 2015-09-15
 text:  
 link:
 ---

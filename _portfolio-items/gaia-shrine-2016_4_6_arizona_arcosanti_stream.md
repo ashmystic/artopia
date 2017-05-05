@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_4_6_arizona_arcosanti_stream.gif
 title: Spring Stream
 author:
-date: 2016-4-6
+date: 2016-04-06
 text: Arcosanti, Arizona
 link:
 ---

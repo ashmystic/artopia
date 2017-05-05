@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Surreal Reality
 author:
-date: 2016-4-26
+date: 2016-04-26
 text:
 link:
 ---

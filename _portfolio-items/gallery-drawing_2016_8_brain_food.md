@@ -11,7 +11,7 @@ text:
 image: drawing_2016_8_brain_food.png
 title: Brain Food
 author:
-date: 2016-8-01
+date: 2016-08-01
 text: Pen drawing
 link:
 ---

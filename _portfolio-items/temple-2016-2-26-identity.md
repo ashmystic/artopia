@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Identity
 author:
-date: 2016-2-26
+date: 2016-02-26
 text:
 link:
 ---

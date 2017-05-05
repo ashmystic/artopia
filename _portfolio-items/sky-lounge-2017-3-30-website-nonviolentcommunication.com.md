@@ -9,7 +9,7 @@ card-class: work-cited
 image: assets/images/categories/sky-lounge/marshall_rosenburg.jpg
 title: Nonviolent Communication Principles
 author:
-date: 2017-3-30
+date: 2017-03-30
 text:
 link: nonviolentcommunication.com
 ---

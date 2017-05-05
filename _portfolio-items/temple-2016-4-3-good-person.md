@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: How to get people to like you
 author:
-date: 2017-4-3
+date: 2017-04-3
 text:
 link:
 ---

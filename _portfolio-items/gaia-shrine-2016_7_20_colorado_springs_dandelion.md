@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_7_20_colorado_springs_dandelion.jpg
 title: Dandelion
 author:
-date: 2016-7-20
+date: 2016-07-20
 text: Colorado Springs, Colorado
 link:
 ---

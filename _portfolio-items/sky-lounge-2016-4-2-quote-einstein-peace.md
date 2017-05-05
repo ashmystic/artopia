@@ -9,7 +9,7 @@ card-class: quote-cited
 image: assets/images/categories/sky-lounge/albert_einstein.jpg
 title: True Peace
 author: Albert Einstein
-date: 2016-4-2
+date: 2016-04-2
 text: Peace cannot be kept by force; it can only be achieved by understanding.
 link:
 ---

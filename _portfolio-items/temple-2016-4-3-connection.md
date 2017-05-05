@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Connection
 author:
-date: 2016-4-3
+date: 2016-04-03
 text:
 link:
 ---

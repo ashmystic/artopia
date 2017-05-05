@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2015_8_15_new_mexico_chaco_culture_sunset.jpg
 title: Pueblo Sunset
 author:
-date: 2015-8-15
+date: 2015-08-15
 text: Chaco Culture, New Mexico
 link:
 ---

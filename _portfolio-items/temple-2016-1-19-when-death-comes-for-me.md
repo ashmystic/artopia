@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: When Death Comes For Me
 author:
-date: 2016-1-19
+date: 2016-01-19
 text:
 link:
 ---

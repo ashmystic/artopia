@@ -6,7 +6,7 @@ card-class: work-cited
 image: assets/images/categories/garden/codepen_icon.png
 title: Codepen
 author:
-date: 2017-3-22
+date: 2017-03-22
 text:
 link: http://codepen.io/hippiefuturist/
 ---

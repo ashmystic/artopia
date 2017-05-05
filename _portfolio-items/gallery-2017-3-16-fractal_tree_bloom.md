@@ -10,7 +10,7 @@ card-class: gallery-image
 image: fractal_tree_bloom.png
 title: Bloom
 author:
-date: 2017-3-16
+date: 2017-03-16
 text: Algorithmic drawing and color
 link:
 ---

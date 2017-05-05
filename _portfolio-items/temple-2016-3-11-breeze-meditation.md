@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Breeze Meditation
 author:
-date: 2016-3-11
+date: 2016-03-11
 text:  
 link:
 ---

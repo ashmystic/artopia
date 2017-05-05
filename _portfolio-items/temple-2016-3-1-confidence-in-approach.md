@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Confidence in Approach
 author:
-date: 2016-3-1
+date: 2016-03-01
 text:
 link:
 ---

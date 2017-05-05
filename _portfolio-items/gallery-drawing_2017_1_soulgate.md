@@ -11,7 +11,7 @@ text: collection-test
 image: drawing_2017_1_soulgate.jpg
 title: Soulgate
 author:
-date: 2017-1-1
+date: 2017-01-1
 text: Pen drawing with digital color
 link:
 ---

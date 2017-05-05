@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2012_6_13_germany_neuschwanstein.jpg
 title: Schloss Neuschwanstein
 author:
-date: 2012-6-13
+date: 2012-06-13
 text: Bavaria, Germany
 link:
 ---

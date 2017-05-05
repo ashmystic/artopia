@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2014_1_30_hawaii_sunset.jpg
 title: Unfiltered Sunset
 author:
-date: 2014-1-30
+date: 2014-01-30
 text: Big Island, Hawaii
 link:
 ---

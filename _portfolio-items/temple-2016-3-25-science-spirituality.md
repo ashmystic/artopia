@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Science and Spirituality
 author:
-date: 2016-3-25
+date: 2016-03-25
 text:
 link:
 ---

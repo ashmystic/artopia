@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Cognitive Dissonance
 author:
-date: 2016-4-2
+date: 2016-04-02
 text:
 link:
 ---

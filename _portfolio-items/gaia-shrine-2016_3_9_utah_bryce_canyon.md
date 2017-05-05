@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_3_9_utah_bryce_canyon.jpg
 title: Winter Desert
 author:
-date: 2016-3-9
+date: 2016-03-09
 text: Bryce Canyon, Utah
 link:
 ---

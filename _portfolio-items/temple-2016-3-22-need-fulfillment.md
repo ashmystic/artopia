@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Need Fulfillment
 author:
-date: 2016-3-22
+date: 2016-03-22
 text:  
 link:
 ---

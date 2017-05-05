@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: Beginnings
 author:
-date: 2016-3-6
+date: 2016-03-06
 text:
 link:
 ---

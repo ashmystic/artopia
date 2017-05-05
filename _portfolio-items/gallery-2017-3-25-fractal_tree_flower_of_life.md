@@ -10,7 +10,7 @@ card-class: gallery-image
 image: fractal_tree_flower_of_life.png
 title: Flower of Life
 author:
-date: 2017-3-25
+date: 2017-03-25
 text: Algorithmic drawing and color
 link:
 ---

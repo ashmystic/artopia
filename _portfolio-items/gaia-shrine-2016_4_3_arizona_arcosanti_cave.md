@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_4_3_arizona_arcosanti_cave.jpg
 title: Canyon View
 author:
-date: 2016-4-3
+date: 2016-04-3
 text: Arcosanti, Arizona
 link:
 ---

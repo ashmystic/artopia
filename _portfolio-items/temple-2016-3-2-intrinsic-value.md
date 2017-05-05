@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Intrinsic Value
 author:
-date: 2016-3-2
+date: 2016-03-02
 text:
 link:
 ---

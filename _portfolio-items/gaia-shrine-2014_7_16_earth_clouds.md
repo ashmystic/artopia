@@ -11,7 +11,7 @@ card-class: gallery-image
 image: photo_2014_7_16_earth_clouds.jpg
 title: Above the Clouds
 author:
-date: 2014-7-16
+date: 2014-07-16
 text: Somewhere over Earth
 link:
 ---

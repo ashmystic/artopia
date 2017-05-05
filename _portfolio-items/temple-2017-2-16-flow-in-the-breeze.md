@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Flow in the Breeze
 author:
-date: 2017-2-16
+date: 2017-02-16
 text:
 link:
 ---

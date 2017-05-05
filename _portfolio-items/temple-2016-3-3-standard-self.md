@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Self as Standard
 author:
-date: 2016-3-3
+date: 2016-03-03
 text:  
 link:
 ---

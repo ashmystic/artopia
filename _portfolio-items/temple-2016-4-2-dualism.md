@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Danger of Dualism
 author:
-date: 2016-4-2
+date: 2016-04-02
 text:  
 link:
 ---

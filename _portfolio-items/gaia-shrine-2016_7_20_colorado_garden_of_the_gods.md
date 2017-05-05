@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2016_7_20_colorado_garden_of_the_gods.jpg
 title: Garden of the Gods
 author:
-date: 2016-7-20
+date: 2016-07-20
 text: Colorado Springs, Colorado
 link:
 ---

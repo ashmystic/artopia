@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2014_1_26_hawaii_pololu_valley.jpg
 title: Pololu Valley
 author:
-date: 2014-1-25
+date: 2014-01-25
 text: Big Island, Hawaii
 link:
 ---

@@ -8,7 +8,7 @@ card-class: gallery-image
 image: photo_2012_6_14_germany_rothenburg_building.jpg
 title: Rothenburg Architecture
 author:
-date: 2012-6-14
+date: 2012-06-14
 text: Rothenburg ob der Tauber, Germany
 link:
 ---

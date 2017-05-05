@@ -10,7 +10,7 @@ text:
 image: drawing_2016_9_texture_canyon.jpg
 title: Texture Canyon
 author:
-date: 2016-9-01
+date: 2016-09-01
 text: Pen and colored pencil drawing
 link:
 ---

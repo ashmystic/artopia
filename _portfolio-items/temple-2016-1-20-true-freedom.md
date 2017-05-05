@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: True Freedom
 author:
-date: 2016-1-20
+date: 2016-01-20
 text:
 link:
 ---

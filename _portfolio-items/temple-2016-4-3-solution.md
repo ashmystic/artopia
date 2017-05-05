@@ -9,7 +9,7 @@ card-class: quote-uncited
 image:
 title: Solution
 author:
-date: 2016-4-2
+date: 2016-04-2
 text:  
 link:
 ---
