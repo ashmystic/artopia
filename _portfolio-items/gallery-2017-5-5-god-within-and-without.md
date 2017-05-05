@@ -7,10 +7,11 @@ topics:
   - spirituality
   - nature
 card-class: gallery-image
-image: fractal_tree_pentagon_air.png
-title: Pentagon Portal (Air Spirit)
+image: god_within_without.jpg
+title: God Within and Without
 author:
-date: 2017-04-4
+date: 2017-05-05
 text: Algorithmic drawing and color
 link:
 ---
+Made using ___[Silk](http://r.weavesilk.com/)___ and ___[Deep Dream](https://deepdreamgenerator.com)___

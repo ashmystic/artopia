@@ -45,6 +45,7 @@
             <!-- Get the collection -->
 
             {% for item in items limit:page.number-display-items %}
+            {% assign content-nl-stripped = item.content | strip_newlines %}
             <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
               {% case item.card-class %}
                 {% when 'gallery-image' %}
@@ -69,7 +70,11 @@
                   <div class="text">{{ item.text }}</div>
                   <div class="date">{{ item.date }}</div>
                   <div class="date-display">{{ item.date | date_to_long_string }}</div>
+
+                  {% if content-nl-stripped.size > 0 %}
+                  <hr>
                   <div class="text">{{ item.content }}</div>
+                  {% endif %}
                 {% when 'quote-cited' %}
                   <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
                     View in {{ item.category | capitalize | replace: '-', ' ' }}

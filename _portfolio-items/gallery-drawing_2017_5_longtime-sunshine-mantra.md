@@ -15,8 +15,6 @@ text: Digital Photographs with algorithmic color
 link: https://www.youtube.com/watch?v=X1eO013Ti6Y
 ---
 
-...
-
 #### Based on song by Amrit Kirtan ___[[listen]](https://www.youtube.com/watch?v=X1eO013Ti6Y)___
 
 (Top left) May the longtime sun shine upon you
