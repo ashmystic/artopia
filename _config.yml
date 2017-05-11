@@ -18,7 +18,7 @@ email: andrew.scott.herman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A hippie futurist's personal collection of art and ideas for inspiring a new paradigm of consciousness.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aherman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aherman.github.io/artopia" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-96451400-1
 twitter_username:
 github_username:  aherman
