@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A hippie futurist's personal collection of art and ideas for inspiring a new paradigm of consciousness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aherman.github.io/artopia" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-96451400-1
+google_analytics: UA-99016044-1
 twitter_username:
 github_username:  aherman
 
