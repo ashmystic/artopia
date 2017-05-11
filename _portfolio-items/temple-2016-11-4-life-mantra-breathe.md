@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Life Mantra
 author:
-date: 2016-11-4
+date: 2016-11-04
 text:  
 link:
 ---

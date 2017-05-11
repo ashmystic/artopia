@@ -12,7 +12,7 @@ text: collection-test
 image: drawing_2016_9_love_peace_power.png
 title: Love Peace Power
 author:
-date: 2016-09-1
+date: 2016-09-01
 text: Pen drawing with digital color
 link:
 ---

@@ -1,5 +1,5 @@
 ---
-category: gaia-shrine-1
+category: gaia-shrine-01
 region:
   - north-america
 topics:

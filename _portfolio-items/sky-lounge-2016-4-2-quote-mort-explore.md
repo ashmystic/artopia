@@ -9,7 +9,7 @@ card-class: quote-cited
 image: assets/images/categories/sky-lounge/andy_mort.jpg
 title: True Learning
 author: Andy Mort
-date: 2016-04-2
+date: 2016-04-02
 text: Challenge Assumptions. Explore. Experiment.
 link:
 ---

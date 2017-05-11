@@ -8,7 +8,7 @@ card-class: quote-uncited
 image:
 title: Simple Truths I Live By
 author:
-date: 2016-11-1
+date: 2016-11-01
 text:
 link:
 ---

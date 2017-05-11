@@ -11,7 +11,7 @@ text: collection-test
 image: drawing_2017_1_stargate.jpg
 title: Stargate
 author:
-date: 2017-01-1
+date: 2017-01-01
 text: Pen drawing with digital color
 link:
 ---

@@ -6,7 +6,7 @@ card-class: quote-uncited
 image:
 title: Profit
 author:
-date: 2016-04-3
+date: 2016-04-03
 text:  
 link:
 ---

@@ -7,7 +7,7 @@ card-class: quote-uncited
 image:
 title: One Religion
 author:
-date: 2016-04-3
+date: 2016-04-03
 text:  
 link:
 ---

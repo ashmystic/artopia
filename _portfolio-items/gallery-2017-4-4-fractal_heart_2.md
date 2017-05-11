@@ -10,7 +10,7 @@ card-class: gallery-image
 image: fractal_heart_2.png
 title: Fractal Heart 2
 author:
-date: 2017-04-4
+date: 2017-04-04
 text: Algorithmic drawing and color
 link:
 ---

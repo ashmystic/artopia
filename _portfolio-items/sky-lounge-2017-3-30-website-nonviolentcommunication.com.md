@@ -11,7 +11,7 @@ title: Nonviolent Communication Principles
 author:
 date: 2017-03-30
 text:
-link: nonviolentcommunication.com
+link: http://www.nonviolentcommunication.com
 ---
 "Nonviolent Communication is the integration of 4 things:
 

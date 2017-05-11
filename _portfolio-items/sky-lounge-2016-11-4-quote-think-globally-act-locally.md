@@ -9,7 +9,7 @@ card-class: quote-cited
 image:
 title: Think Globally
 author:
-date: 2016-11-1
+date: 2016-11-01
 text: Think globally, act locally.
 link:
 ---

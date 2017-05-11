@@ -9,7 +9,7 @@ card-class: quote-cited
 image: assets/images/categories/sky-lounge/albus_dumbledore.jpg
 title: Identity Through Actions
 author: Dumbledore (Harry Potter)
-date: 2016-04-2
+date: 2016-04-02
 text: It is our choices that show what we truly are, far more than our abilities.
 link:
 ---
