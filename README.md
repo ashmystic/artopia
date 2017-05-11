@@ -1,8 +1,8 @@
-# aherman.github.io
+# Artopia
 
 My personal portfolio and blog showcasing art and ideas for inspiring a new paradigm of consciousness.
 
-**Live site:** https://aherman.github.io/
+**Live site:** https://aherman.github.io/artopia
 
 ## Technical Details
 

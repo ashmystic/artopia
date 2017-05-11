@@ -1,7 +1,7 @@
 ###
 # Script to process (resize, clone) images
 #
-# Run from insite repo root (aherman.github.io)
+# Run from insite repo root (artopia)
 ###
 
 # Resize with max height
