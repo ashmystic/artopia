@@ -2,7 +2,7 @@
 
 My personal portfolio and blog showcasing art and ideas for inspiring a new paradigm of consciousness.
 
-**Live site:** https://aherman.github.io/artopia
+**Live site:** https://ashmystic.github.io/artopia
 
 ## Technical Details
 
