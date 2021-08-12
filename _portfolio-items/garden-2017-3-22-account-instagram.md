@@ -8,7 +8,7 @@ title: Instagram
 author:
 date: 2017-03-22
 text:
-link: https://www.instagram.com/hippie.futurist/
+link: https://www.instagram.com/ash.mystic.art
 ---
 <br>
-Art, nature and inspirational photography.
+Mystical art experiments.
