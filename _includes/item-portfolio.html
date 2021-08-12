@@ -49,7 +49,7 @@
             <div class="grid-item {{ item.card-class }} Category-{{ item.category }} {% for medium in item.mediums %}Medium-{{ medium }} {% endfor %} {% for topic in item.topics %}Topic-{{ topic }} {% endfor %} {% for region in item.region %}Region-{{ region }} {% endfor %}" data-category="general wisdom, society">
               {% case item.card-class %}
                 {% when 'gallery-image' %}
-                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  <a class="category" href="{{ site.url }}/{{ item.category }}">
                     View in {{ item.category | capitalize | replace: '-', ' ' }}
                   </a>
                   <div class="medium">{{ item.medium }}</div>
