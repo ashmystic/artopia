@@ -76,7 +76,7 @@
                   <div class="text">{{ item.content }}</div>
                   {% endif %}
                 {% when 'quote-cited' %}
-                  <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                  <a class="category" href="{{ site.url }}/{{ item.category }}">
                     View in {{ item.category | capitalize | replace: '-', ' ' }}
                   </a>
                   <div class="medium">{{ item.medium }}</div>
@@ -89,7 +89,7 @@
                   <div class="text">"{{ item.text }}"</div>
                   <a class="link" href="" target="_blank"></a>
                 {% when 'quote-uncited' %}
-                    <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                    <a class="category" href="{{ site.url }}/{{ item.category }}">
                       View in {{ item.category | capitalize | replace: '-', ' ' }}
                     </a>
                     <div class="medium">{{ item.medium }}</div>
@@ -101,7 +101,7 @@
                     <div class="text">{{ item.content }}</div>
                     <a class="link" href="" target="_blank"></a>
                 {% when 'work-cited' %}
-                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                <a class="category" href="{{ site.url }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
                 </a>
                   <div class="medium">{{ item.medium }}</div>
@@ -116,7 +116,7 @@
                   <div class="text">{{ item.text }}</div>
                   <div class="text">{{ item.content }}</div>
                 {% when 'work-uncited' %}
-                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                <a class="category" href="{{ site.url }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
                 </a>
                   <img class="image" src="{{ item.image }}"></img>
@@ -132,7 +132,7 @@
                   <div class="text">{{ item.content }}</div>
                   <a class="link" href="{{ item.link }}" target="_blank"><button class="button">View {{ item.mediums.first }}</button></a>
                 {% else %}
-                <a class="category" href="{{ site.baseurl }}/{{ item.category }}">
+                <a class="category" href="{{ site.url }}/{{ item.category }}">
                   View in {{ item.category | capitalize | replace: '-', ' ' }}
                 </a>
                   <div class="medium">{{ item.medium }}</div>
