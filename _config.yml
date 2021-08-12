@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ashmystic.github.io/artopia" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-99016044-1
 twitter_username:
-github_username:  aherman
+github_username:  ashmystic
 
 collections:
   - portfolio-items
